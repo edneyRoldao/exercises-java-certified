@@ -1,0 +1,23 @@
+Exercise 01
+	An ArrayList when it is instantiated ten positions are created, 
+	but an IndexOutOfBoundsException is thrown when we try to access
+	a null position. 
+
+Exercise 02
+	When n1 is equals to: 14 and/or 18
+
+Exercise 03
+	It will print 'Writing...' because although instance type came from
+	Child class, the reference came from a Parent class, so that's parent's method
+	is called.
+
+Exercise 04
+	The parent construct force us to pass an int parameter, so the answer is:
+	super(10)
+
+Exercise 05
+	continue modifier provide us to jump to the next loop.
+	Box is printed
+
+Exercise 06
+	protected

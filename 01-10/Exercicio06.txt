@@ -1,0 +1,7 @@
+Which access modifier makes a member available 
+only to CLASSES within the SAME PACKAGE or SUBCLASSES ?
+
+A) private
+B) protected	
+C) public
+D) package-private 
