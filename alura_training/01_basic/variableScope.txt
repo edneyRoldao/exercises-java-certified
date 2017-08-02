@@ -1,0 +1,21 @@
+-------------------- FIRST -----------------------------------------------
+Let's pretend that we have a static variable and a method variable
+with the same name, what's the way to diferenciate them inside the method.
+(avoid shadowing)
+
+ClassName.staticVariable = staticVariable;
+
+public class StaticVariableTest {
+	static String base = "base";
+	String name = "name";
+
+	public void test(String base, String name) {
+		StaticVariableTest.base = base;
+		this.name = name;
+	} 
+}
+
+Shadowing: 
+it is a proccess where the JVM call local variables instead class variables
+when both of them has the same name.
+--------------------------------------------------------------------------
