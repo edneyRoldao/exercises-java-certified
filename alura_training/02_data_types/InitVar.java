@@ -1,4 +1,4 @@
-/* Some sample errors */
+/* Some sample errorscd .. */
 
 // ERROR 01
 public static void main(String[] args) {
