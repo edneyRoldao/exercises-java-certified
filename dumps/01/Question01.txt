@@ -1,0 +1,11 @@
+Esse teste analisa a forma de armazenamento em memória de tipos primitivos e de referencia.
+ 
+ Quando criamos um objeto, o que temos em memória é o endereço pra sua referência, enquanto tipos
+ primitivos guardam o próprio valor.
+
+ Conclusão:
+ 	- Sabemos que parametros de um método funcionam como declaração de variáveis locais e seus valores só existem
+ 	  dentro do mesmo.
+ 	- Perceba que quando passamos um objeto no parametro, se este já foi inicializado com o operador new, recebemos
+ 	  junto o seu endereço em memória, portanto quando modificamos o valor de seus atributos, isso reflete nos objects
+ 	  que estão fora do método, pois ambos mantém a mesma referência em memória.

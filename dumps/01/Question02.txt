@@ -1,0 +1,5 @@
+sobre pré e pós incremento.
+
+quando usamos:
+++var - temos um pré incremento, ou seja, primeiro incrementa e depois ocorre a leitura.
+var++ - temos um pos incremento, ou seja, primeiro ocorre a leitura e depois incrementa.
