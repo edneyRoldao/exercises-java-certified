@@ -1,0 +1,43 @@
+DECLARAR E INICIALIZAR
+	- variaveis não membro podem ser declaradas sem a sua
+	  inicialização, porem, se ela for referenciada em algum
+	  ponto, devemos garantir sua inicialização, ou seja, se a JVM
+	  perceber que existe a possibilidade dela nao ser inicializada,
+	  não vai compilar.
+	  erro: variable xpto might not have been initialized.
+
+	  Obs: se passar um true de forma literal em algum if, o codigo
+	       compila.
+
+	- tipos primitivos tem valor padrao zero quando membros exceto boolean
+	  que é false
+
+	- Quando criamos um array seja membro ou não, nas posições declaradas são
+	  adicionados os valores default para o aquele tipo de array.
+	  boolean[] list = new boolean[10]; - temos 10 posicoes como false
+
+	- char só aceita positivos
+	- short e char tem o mesmo tamanho
+	- 12.0 / 0 - infinity positivo
+	- numeros inteiros o padra é int
+	- numeros decimais o padrao e boolean
+
+	- Base octal:
+		01xx - 07xx - lembrando que xx devem ser numeros de 0 à 7
+
+	- Base hexadecimal (total de 6 caracteres)
+		0x? - a ? pode ser de 0 à 9 ou ABCDEF exp: 0xA, 0x9, 0xFFFF
+		obs: x pode ser X
+
+	- Base binaria
+		0bxxxxx - sequencia de 0 e 1
+
+	- Notacao cientifica para tipo flutuantes
+		5.2E2 -> 5.2 * 10 elevado à 2 = 520
+
+	- Temos unicode tbm para tipos char
+		char a = '\n03A9';
+
+	- so $ e _
+
+	

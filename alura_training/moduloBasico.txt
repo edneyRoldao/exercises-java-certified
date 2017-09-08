@@ -1,0 +1,39 @@
+ESCOPO DE VARIAVEIS:
+	sem detalhes
+
+ESTRUTURA DA CLASSE
+	- o arquivo java pode estar vazio
+	- colocamos o mesmo nome do arquivo quando a classe é public pois só assim
+	  a JVM consegue deixa-lo acessível a outras classes. ele consegue encontrar.
+
+EXECUTAVEIS
+	- args[0] do main quando nao passamos nada (ArrayIndexOutOf...)
+	- precisa saber como passar propriedades: -DnomeDaProp=valorDaProp
+
+	- o classpath que informa pra JVM onde procurar as classes e pacotes, 
+	  por padrao, ele sempre será o diretorio atual ( . ) portanto, podemos
+	  informar o caminho do classpath.
+		  PASSO a PASSO para testar:
+		  01 - crie a seguinte estrutura de pastas: certif/teste
+		  02 - crie uma classe com main dentro da pasta teste com o pacote certif.teste
+		  03 - no terminal, vá para a pasta certif e compile a classe: javac certif/classe.java
+		  04 - continue na pasta certif e execute os comando abaixo:
+		  		A) 						  java certif.teste.Classe 		(nao funciona)
+		  		B) 						  java teste.classe 			(nao funciona)
+		  		C) dentre da pasta teste: java Classe 					(nao funciona)
+		  		D) dentre da pasta teste: java certif.teste.classes 	(nao funciona)
+		  		E) dentre da pasta teste: java teste.Classe 			(nao funciona) 
+
+	  			F) pasta antes da certif: java certif.teste.Classe 				(funciona)
+	  			G)       na pasta certif: java -cp ../ certif.teste.Classe 		(funciona)
+	  			H)        na pasta teste: java -cp ../../ certif.teste.Classe 	(funciona)
+
+	  - Para cria arquivos jar:
+	  		01 - compile todas as classes
+	  		02 - execute o seguinte comando a antes da raiz: jar -cf nome.jar nomePastaRaiz
+	  		03 - para executar: java -cp nome.jar pacotes.NomeClasseComMain
+
+
+
+PACOTES E VISIBILIDADE
+	- sem detalhes

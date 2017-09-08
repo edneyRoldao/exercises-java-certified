@@ -1,0 +1,66 @@
+JAVA BASICS
+	- define the scope of variables
+	- define the structure of a java class
+	- create executable java applications with main method
+	- import other java packages to make them accessible in your code
+	- Compare and contrast the features and components fo java such as:
+	  platform, independence, object orientation, encapsulation, etc.
+
+WORKING WITH JAVA DATA TYPES
+	- declare and initialize variables
+	- differentiate between object reference variables and primitive one
+	- read or write object fields
+	- explain Object's lifecycle (garbage collector)
+	- call methods on objects
+	- manipulate data using StringBuilder class and its methods
+	- creating and manipulating strings
+	- use call methods from wrapper classes
+
+USING OPERATORS AND DECISION CONSTRUCTS
+	- use java operators
+	- use parenthesis to override operator precedence
+	- test quality between Strings and other objects using == and equals
+	- create if and if/else constructs
+	- use switch statement
+
+CREATING AND USING ARRAYS
+	- declare, instantiate, initialize and use one-dimensional array
+	- declare, instantiate, initialize and use MULTI-dimensional array
+	- declare and use an ArrayList
+
+USING LOOP CONSTRUCTS
+	- create and use while loops
+	- create and use for loops incluging the enhanced for loop
+	- create and use do/while loops
+	- compare loops constructs
+	- use break and continue
+
+WORKING WITH METHODS AND ENCAPSULATION
+	- Create methods with arguments and return values
+	- Apply the static keyword to methods and fields
+	- Create an overloaded method
+	- Differentiate between default and user defined constructors
+	- Create and overload constructors
+	- Apply access modifiers
+	- Apply encapsulation principles to a class
+	- Determine the effect upon object references and primitive values
+	  when they are passed into methods that change the values
+
+WORKING WITH INHERITANCE
+	- Implement inheritance
+	- Develop code that demonstrates the use of polymorphism
+	- Differentiate between the type of a reference and the type of an object
+	- Determine when casting is necessary
+	- Use super and this to access objects and constructors
+	- Use abstract classes and interfaces
+
+HANDLING EXCEPTIONS
+	- Differentiate among checked, RuntimeExceptions exceptions and Errors
+	- Create a try-catch block and determine how exceptions alter normal program flow
+	- Describe what Exceptions are used for in Java
+	- Invoke a method that throws an exception
+	- Recognize common exception classes and categories
+
+JAVA 8
+	- working with new Date API from package java.time
+	- Write a simple Lambda expression (consumes a predicates)
