@@ -13,6 +13,7 @@ class E02 {
 	}
 }
 
+
 /*
 	a) Não compila: erro na linha que tenta acessar a variável idade.
 	b) Compila e imprime 0 ou a idade que for passada na linha de comando.

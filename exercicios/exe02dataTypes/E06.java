@@ -8,6 +8,7 @@ class E06 {
 	}
 }
 
+
 /*
 	a) Não compila: erro na linha que declara n.
 	b) Não compila: erro na linha que declara x.

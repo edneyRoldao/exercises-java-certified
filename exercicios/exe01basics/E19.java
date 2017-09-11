@@ -18,6 +18,7 @@ class B {
 	}
 }
 
+
 /*
 	a) B não compila: erro na linha 13.
 	b) B não compila: erro na linha 16.

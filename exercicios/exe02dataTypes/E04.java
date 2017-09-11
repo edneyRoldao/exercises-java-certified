@@ -6,6 +6,7 @@ class E04 {
 	}
 }
 
+
 /*
 	a) Imprime true.
 	b) Imprime false.

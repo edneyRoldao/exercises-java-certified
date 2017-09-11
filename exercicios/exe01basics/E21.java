@@ -16,6 +16,7 @@ class B {
 	}
 }
 
+
 /*
 	a) não compila.
 	b) Tudo compila.

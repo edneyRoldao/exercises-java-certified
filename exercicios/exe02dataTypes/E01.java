@@ -8,6 +8,7 @@ class E01 {
 	}
 }
 
+
 /*
 	a) O código não compila: erros a partir da linha que define 
 	   uma variável do tipo int.

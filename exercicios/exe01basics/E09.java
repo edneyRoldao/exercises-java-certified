@@ -8,6 +8,7 @@ class A {
 	}
 }
 
+
 /*
 	a) javac A e java A
 	b) javac A.java e java A

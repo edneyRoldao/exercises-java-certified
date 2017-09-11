@@ -12,6 +12,7 @@ class E05 {
 	}
 }
 
+
 /*
 	a) Não compila: o método de impressão não recebe boolean.
 	b) Não compila: atribuição inválida.

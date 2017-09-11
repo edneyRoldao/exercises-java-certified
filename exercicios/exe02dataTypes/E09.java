@@ -8,6 +8,7 @@ class E09 {
 	}
 }
 
+
 /*
 	a) Não compila: não podemos declarar uma variável com o nome de uma
 	   palavra reservada.

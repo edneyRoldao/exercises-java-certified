@@ -10,6 +10,7 @@ class A {
 	}
 }
 
+
 /*
 	a) java jar programa.jar
 	b) java jar programa.jar b.A

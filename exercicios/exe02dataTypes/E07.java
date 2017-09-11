@@ -7,6 +7,7 @@ class E07 {
 	}
 }
 
+
 /*
 	a) Não compila: não podemos somar um em um caractere.
 	b) Não compila: não podemos comparar caracteres com <.
