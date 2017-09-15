@@ -1,0 +1,19 @@
+ABOUT INHERITANCE
+
+	Constructors
+
+	1 - o construtor padrao sempre chama o construtor padrao da classe pai
+	    implicitamente: super();
+
+	2 - Se uma classe pai deixar de ter o construtor padrão, suas filhas
+	    são obrigadas a chamar o construtor da classe pai explicitamente
+
+	3 - Usamos o this para chamar os construtores da propria classe
+
+	4 - Atenção com os modificadores do construtor das classes Pai.
+	    Uma Filha nunca poderá ser instanciada caso o Pai só tiver
+	    construtores privados
+
+	5 - As chamadas aos construtores padrão sempre são chamadas de forma
+	    implicíta, case desejar chamar um construtor específico, isso deve
+	    ser explícito usando super ou this

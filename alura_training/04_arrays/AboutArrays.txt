@@ -1,0 +1,46 @@
+ABOUT ARRAYS
+
+1 - podemos declarar um array com zero
+
+2 - O compilador aceita declaração de array com tamanho negativo, porém
+    ocorre um erro de execução: NegativeArraySizeException
+
+3 - sobre varargs do metodo main
+	a) .length retorna zero quando sem pametros
+	b) args[0] quando sem parametros temos um ArrayIndexOut...
+	c) quando não passamos parametros na execução do main, o varargs
+	   se comporta como um array inicializado com zero posições.
+	d) Baseando-se no item c, podemos acessar os metodos de array
+	   como o toString() que não recebemos um NullPonter.
+	e) o toString() de arrays retorna o valor da referencia em memória.
+
+4 - a inicialização de array com valores diretos assim: ( arr = {"a", "b"} )
+    só é permitida na sua declaração.
+
+5 - Quando usamos array de objetos, temos que ficar atentos aos objetos que
+    apontando para mesma referencia de objetos contidos no array.
+
+6 - Não é possível aplicar o casting de arrays de um tipo para arrays de
+    outros tipos quando estamos trabalhando com tipos primitivos,
+    exp: array de int para array de long, porém nós podemos aplicar o casting
+    para objetos, contudo, os tipos devem ser compatíveis.
+
+7 - Podemos declarar arrays multidimensional assim: ( int [] arr[]; )
+
+8 - Sobre ArrayList
+	a) .contains(string) retorna um boolean (precisa do equals implementado)
+	b) .remove(string)   retorna um boolean (remove o primeiro que encontra)
+	c) .toArray()        converte sempre para um array de Object ou você pode:
+	   .toArray(new String[arrayName.size()]) ou
+	   .toArray(new String[0]) a JVM consegue ver o tamanho do array
+	d) .add(pisicao, string)
+	e) .remove(posicao)
+	f) .set(0, string) troca o elemento da posicao passada no 1º param
+	g) .indexOf(string) e lastIndexOf(string) precisa do equals implementado 
+
+9 - Usando Iterator
+	java.util.Iterator<String> it = arrayName.iterator();
+
+	while(it.hasNext())
+		var a = it.next();
+******  it.remove()	VAI REMOVER O ELEMENTO DA LISTA

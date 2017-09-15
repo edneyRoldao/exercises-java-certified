@@ -1,0 +1,48 @@
+ABOUT EXCEPTIONS
+
+- 1: Só podemos colocar checkedException dentro do bloco catch se algum método
+     que está sendo chamado dentro do try estiver lançando aquela exception,
+     Caso contrário o código não vai compilar. Exp: IOException
+     (Unreachable catch block for IOException. This exception is never thrown
+      from the try statement body)
+
+- 2: Todo código dentro do bloco try que está após a linha onde ocorre a 			 exception, não será executado, porém o fluxo continua após os catches
+     e finally caso tal exception entre em algum bloco catch
+
+- 3: Todo try deve ter um bloco catch ou finally se não ocorre erro de compilação
+
+- 4: Quando temos uma variavel membro que é inicializada na sua declaração e a 
+     mesma é feita por meio da chamada de um método que lança uma checked
+     exception, precisamos lancar tal exception em cada declaração de construtor da classe.
+     Toda instanciação dessa classe deve estar envolvida em um block try tratando a exception
+
+- 5: quando herdamos nossas classes de Exception, ela é do tipo checked, e quando
+     herdamos do tipo RuntimeException, é do tipo unchecked.
+
+- 6: Se em algum parte de um método nós tivermos o lançamento de uma exception do tipo
+     checked (exp: throw new java.oi.IOException() ) nós somos obrigados a lança-la
+     na declaração do método tbm (exp: throws java.oi.IOException) e pode ser do tipo
+     que está sendo lançado ou um mais genérico.
+
+- 7: A ordem que as exceptions são tratadas nos blocos try tbm influenciam no nosso
+     código, exp: Se o 1º catch tratar uma Throwable, por exemplo,
+     nenhum outro bloco catch pode ser declarado pois Throwable já trata todas as
+     exceptions existentes. Temos um error do genero Unreachable statement...
+     O mesmo vale se tivermos o tratamento de uma RuntimeException e na sequencia um
+     NullPointerException, ou seja, nunca vai entrar nesse catch e o compilador sabe
+     disso e não deixa.
+
+CLASSIFICACAO DAS EXCEPTIONS:
+
+	- ArrayIndexOutOfBoundException (arrays)
+	- IndexOutOfBoundException      (List interface)
+	- NullPointerException          (quando chamamos metodos que referenciam null)
+	- ClassCastException
+	- NumberFormatException
+	- IllegalArgumentException
+	- IllegalStateException
+	- StackOverFlowError			(loop infinito)
+	- NoClassDefFoundError			(quando a JVM não encontra algum arquivo.class)
+	- OutOfMemoryError				(estouro de memoria, geralmente em loops)
+	- ExceptionInitializerError 
+	  (quando uma exception ocorre dentro um bloco de inicializacao static)
