@@ -17,7 +17,17 @@ class Filha extends Pai {
 }
 
 class TestConstructor {
+
+	public TestConstructor() {
+		//this(10); // recursive constructor invocation
+		new TestConstructor(10);
+	}
+
+	public TestConstructor(int x) {
+		this();
+	}
+
 	public static void main(String[] args) {
-		new Filha();
+		new TestConstructor();
 	}
 }

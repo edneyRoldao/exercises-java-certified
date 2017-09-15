@@ -14,6 +14,13 @@ ABOUT INHERITANCE
 	    Uma Filha nunca poderá ser instanciada caso o Pai só tiver
 	    construtores privados
 
-	5 - As chamadas aos construtores padrão sempre são chamadas de forma
-	    implicíta, case desejar chamar um construtor específico, isso deve
-	    ser explícito usando super ou this
+	5 - As chamadas aos construtores padrão sempre irão ocorre por trás dos 
+	    panos caso eles existam, se desejar chamar um construtor específico, 
+	    isso deve ser explícito usando super ou this
+
+	6 - como o modificador this é usado para chamar outros construtores da classe,
+	    error de recursão podem acontecer e o compilador sabe identificar e nao
+	    deixa compilar. Exp: o construtor que recebe string chama o padrao e vice-versa. Um fica chamando o outro.
+	    Pode acontecer de ocorre uma recursão por meio da instanciação de um
+	    objeto dentro do construtor e isso o compilador não é capaz de enxergar,
+	    portanto teremos um erro de execução do tipo: StackOverFlowError
