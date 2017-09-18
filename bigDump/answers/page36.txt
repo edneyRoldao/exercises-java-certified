@@ -1,9 +1,9 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( B ) - compila e nenhum objeto do tipo B é criado
 
 WHAT HAS BEEN TESTED:
-
+	ciclo de vida dos objetos
 
 EXPLANATION:
+	em nenhum ponto do codigo existe a instanciação do objeto B.
+	Apenas foram criadas 100 posições com valor null

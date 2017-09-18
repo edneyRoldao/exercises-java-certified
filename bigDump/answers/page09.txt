@@ -1,9 +1,9 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( D ) - javac b/A.java
+			java b.A
 
 WHAT HAS BEEN TESTED:
-
+	Como compilar e executar uma classe pela lina de comando
 
 EXPLANATION:
+	Estudar a parte de classPath.

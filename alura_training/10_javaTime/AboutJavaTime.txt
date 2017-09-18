@@ -1,0 +1,7 @@
+ABOUT API:	 JAVA.TIME
+
+1- Os objetos do tipo Period só aceitam datas do tipo LocalDate, visto que
+   esse tipo de objeto não lida com horas, minutos e segundos. Para trabalhar
+   com LocalDateTime, usamos o objeto do tipo Duration
+
+2- 

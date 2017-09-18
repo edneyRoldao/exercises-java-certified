@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( C ) - compila e não podemos falar nada do garbage collector
 
 WHAT HAS BEEN TESTED:
-
+	Garbage collector (variáveis elegíveis) 
 
 EXPLANATION:
+	Nunca podemos afirmar quantos objetos foram coletados pelo garbage collector.

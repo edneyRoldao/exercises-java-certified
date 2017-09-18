@@ -1,9 +1,10 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( F ) - imprime 48
 
 WHAT HAS BEEN TESTED:
-
+	como variáveis de referencia são armazenadas em memória
 
 EXPLANATION:
+	As variáveis de referencia estão compartilhando o mesmo 
+	endereço em memória, portanto, todos podem alterar o mesmo
+	valor em memória.

@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - não compila, erro na linha que declara n
 
 WHAT HAS BEEN TESTED:
-
+	tipos dados - bases que o int trabalho
 
 EXPLANATION:
+	Não existe 09 na base octal.

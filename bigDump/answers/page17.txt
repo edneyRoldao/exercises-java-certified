@@ -1,9 +1,11 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( E ) - erro de compilação nos arquivos A e C
 
 WHAT HAS BEEN TESTED:
+	Modificadores de acesso
 
 
 EXPLANATION:
+	A classe B está com o modificador default, ou seja, só pode ser 
+	vista por classes dentro do pacote a.b, porém as classes A e C
+	estão em pacotes diferentes do a.b.

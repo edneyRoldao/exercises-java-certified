@@ -1,9 +1,10 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - compila e 10 objetos do tipo B está elegíveis a serem coletados
+	        pole GC.
 
 WHAT HAS BEEN TESTED:
+	Ciclo de vida dos objetos
 
 
 EXPLANATION:
+	

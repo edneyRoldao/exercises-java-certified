@@ -1,9 +1,9 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - B não compila por erro na linha 3
 
 WHAT HAS BEEN TESTED:
+	import de classes
 
 
 EXPLANATION:
+	o correto é import static e isso está invertido na questão

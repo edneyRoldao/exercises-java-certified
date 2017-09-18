@@ -1,9 +1,12 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( D ) - compila e imprime de 10 até 99 
 
 WHAT HAS BEEN TESTED:
-
+	Variáveis estáticas (de classe)
 
 EXPLANATION:
+	Uma variável estática compartilha seu valor com
+	todos os objetos da classe, portanto, mesmo que 
+	em cada iteração um novo objeto é instanciado,
+	o valor da variável não altera no momento das 
+	instanciações, somente nas atribuições.

@@ -1,9 +1,9 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - não compila.
 
 WHAT HAS BEEN TESTED:
-
+	modificadores de acesso
 
 EXPLANATION:
+	a classe A está no pacote default e nao poder ser 
+	instanciada por a partir de outro pacote.

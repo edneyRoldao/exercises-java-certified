@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( D ) - compila e roda imprimindo outro resultado (10 e 10)
 
 WHAT HAS BEEN TESTED:
-
+	Escopo de veriáveis
 
 EXPLANATION:
+	Só estamos redefinindo a variável local que está dentro do metodo c

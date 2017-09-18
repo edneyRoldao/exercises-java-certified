@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( B ) - imprime false
 
 WHAT HAS BEEN TESTED:
-
+	Valor padrão das variáveis em um array
 
 EXPLANATION:
+	Todo boolean por padrão recebe false na inicialização de um array

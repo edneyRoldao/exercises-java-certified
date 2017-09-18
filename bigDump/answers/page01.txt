@@ -1,9 +1,9 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( C ) - compila e roda, imprimindo da 0 até 19 e depois 15
 
 WHAT HAS BEEN TESTED:
-
+	Escopo de variável
 
 EXPLANATION:
+	Temos uma variável do tipo int no escopo do for e outra no
+	escopo do main.

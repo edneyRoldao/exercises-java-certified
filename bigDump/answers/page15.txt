@@ -1,9 +1,10 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( C ) - compila e roda imprimindo bem vindo
 
 WHAT HAS BEEN TESTED:
-
+	Estrutura de classes
 
 EXPLANATION:
+	quando importamos um pacote inteiro com .* e dentro do pacote existe uma 
+	classe com o mesmo de outra que também está importada sem o utilização
+	do coringa, O compilador vai selecionar a com import mais específico.

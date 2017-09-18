@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
-
+	( B ) - B não compila por erro na linha 5
+	
 WHAT HAS BEEN TESTED:
-
+	import de classes
 
 EXPLANATION:
+	Na classe B só estamos importando os membros estáticos da classe.

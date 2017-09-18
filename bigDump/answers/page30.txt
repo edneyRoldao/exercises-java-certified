@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( D ) - compila e não imprime nada
 
 WHAT HAS BEEN TESTED:
-
+	palavras reservadas
 
 EXPLANATION:
+	palavras reservadas são caseSensitive.

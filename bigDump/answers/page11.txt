@@ -1,9 +1,9 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( F ) - java -cp programa.jar b.A
 
 WHAT HAS BEEN TESTED:
-
+	Como executar um programa usando biblioteca compactada
+	dentro de um jar.
 
 EXPLANATION:
+	precisamos usar -cp para apontar o caminho do classpath do jar

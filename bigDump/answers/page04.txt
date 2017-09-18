@@ -1,9 +1,10 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - o arquivo não compila
 
 WHAT HAS BEEN TESTED:
-
+	Estrutura de uma classe.
 
 EXPLANATION:
+	Não importa quantas classes temos dentro de um arquivo,
+	os imports devem estar antes da declaração das classes e
+	após a declaração do pacote.

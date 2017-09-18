@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( E ) - instanceOf
 
 WHAT HAS BEEN TESTED:
-
+	Palavras reservadas
 
 EXPLANATION:
+	o instanceof não existe em lowerCamelCase.

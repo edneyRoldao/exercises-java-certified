@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A )
 
 WHAT HAS BEEN TESTED:
-
+	decleração método main
 
 EXPLANATION:
+	Podemos utilizar varargs na declaração do main

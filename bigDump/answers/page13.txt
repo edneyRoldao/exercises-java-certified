@@ -1,9 +1,12 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - não compila: erro na classe de Teste
 
 WHAT HAS BEEN TESTED:
-
+	Modificadores de acesso
 
 EXPLANATION:
+	Quando uma classe ou seu construtor não possuí modificador de acesso
+	declarado explícitamente, por padrão eles serão default.
+	Classe com modificador default e/ou instanciada, só serão acessíveis por
+	classes do mesmo pacote. Erro:
+	MyClass is not public in itsPackage; cannot be accessed from outside package.

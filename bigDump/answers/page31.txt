@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( E ) - imprime 47
 
 WHAT HAS BEEN TESTED:
-
+	como variáveis primitivas são salvas em memória
 
 EXPLANATION:
+	

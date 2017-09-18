@@ -1,9 +1,10 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - não compila. Erro na linha que tenta acessar a variavel idade.
 
 WHAT HAS BEEN TESTED:
-
+	Escopo e ciclo de vida das variáveis
 
 EXPLANATION:
+	Quando trabalhamos com variáveis locais, precisamos garantir a sua
+	inicialização antes de usar, ou seja, o compilador percebe quando 
+	existe alguma possibilidade da variável não ser utilizada.

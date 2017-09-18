@@ -1,9 +1,9 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( B ) - não compila, atribuição inválida
 
 WHAT HAS BEEN TESTED:
+	tipo de dados
 
 
 EXPLANATION:
+	boolean só recebe true ou false

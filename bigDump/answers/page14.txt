@@ -1,9 +1,10 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - erro ao tentar importar duas classes com o mesmo nome
 
 WHAT HAS BEEN TESTED:
-
+	Estrutura da classe
 
 EXPLANATION:
+	Quando temos duas classes com o mesmo nome, temos que utilizar 
+	o full qualified name quando for utilizá-las pois o compilador
+	não consegue saber qual você quer utilizar.

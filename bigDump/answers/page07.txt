@@ -1,9 +1,16 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( D ) - Não compila: erro na linha 3
 
 WHAT HAS BEEN TESTED:
+	Modificadores de acesso - pegadinha.
 
 
 EXPLANATION:
+	Só podemos ter uma classe pública em um arquivo, e o arquivo
+	deve ter o mesmo nome da classe pública para facilitar a busca
+	pela JVM. No caso a arquivo se chama A e temos uma interface
+	pública de nome B.
+	A pegadinha aqui é que: na linha sete também apresenta um erro, pois
+	não existe virgula após extends A, colocamos virgula quando temos
+	mais de uma interface para implementar.
+	O erro vai acontecer primeiro na linha 3.

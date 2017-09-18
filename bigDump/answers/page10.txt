@@ -1,9 +1,13 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( C ) - ocorre nullPointerException na linha 5
 
 WHAT HAS BEEN TESTED:
-
+	Declaração de arrays e acesso aos mesmos
 
 EXPLANATION:
+	Estamos tentando ler o valor de uma posição que não existe.
+	Se nao passamos parametros ao executar o main, o array
+	téra tamanho zero, ou seja, não temos o index 0 pois este representa
+	a posição 1 do array. Nesse caso, quando tentamos acessar args[0] 
+	recebemos um ArrayIndexOutOfBoundException e não um nullPointerException
+	como está descrito na questão.

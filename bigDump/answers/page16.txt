@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( C ) - compila sem problemas
 
 WHAT HAS BEEN TESTED:
-
+	Estrutura da classe (import)
 
 EXPLANATION:
+	A linha do import só está repetida, isso não causa erros.

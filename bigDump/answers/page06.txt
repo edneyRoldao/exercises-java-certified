@@ -1,9 +1,11 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( C ) - compila sem erros
 
 WHAT HAS BEEN TESTED:
-
+	Estrutura de uma classe
 
 EXPLANATION:
+	Todos os componentes de uma classe são opcionais.
+	- package
+	- imports
+	- classes

@@ -1,9 +1,11 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( B ) - compila e imprime vazio/vazio
 
 WHAT HAS BEEN TESTED:
-
+	Sobrecarga de metodos - Chamada de métodos com varargs
 
 EXPLANATION:
+	Como a passagem de parametros para um metodo que recebe varargs é opcional,
+	isso poderia causar ambiguidade com a sobrecarga por um método sem parametros.
+	Nesses casos o compilar decide por usar o método sem parametros ao invés
+	do varargs.

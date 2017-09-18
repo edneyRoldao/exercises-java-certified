@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( C ) - compila e imprime o alfabeto
 
 WHAT HAS BEEN TESTED:
-
+	tipos de dados
 
 EXPLANATION:
+	Variáveis do tipo char recebem valores numéricos
