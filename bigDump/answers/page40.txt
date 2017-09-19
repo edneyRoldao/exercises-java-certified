@@ -1,7 +1,5 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( E ) - compila e imprime 2
 
 WHAT HAS BEEN TESTED:
 
