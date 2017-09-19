@@ -1,0 +1,26 @@
+ABOUT STRING AND STRING_BUILDER
+
+1 - A única operação do stringBuilder imutável é substring.
+
+2 - Metodos stringBuilder: delete, insert, append, reverse
+
+3 - Toda string criada de forma literal recebe uma referencia a partir da criação de um pool de string
+
+4 - concatenação de valores literais vão para o pool de strings
+
+5 - valores literais concatenados com variáveis, não vão para o pool e um novo objeto é criado,
+    mesmo que a variável utilizada na concatenação tenha sido criada de forma literal.
+
+6 - todo resultado de string obtido a partir de qualquer método da API de string, como substring
+    ou qualquer outro, não vai para o pool de string e um novo objeto será criado, EXCETO... item 7
+
+7 - Se você cria um valor de forma literal, ele vai para o pool de strings. Se você tentar alterar 
+    o valor desse string por meio de um dos métodos de string, como: toString, substring, etc. 
+    Caso o resultado for igual ao valor que a variável tinha antes, um novo objecto não será criado 
+    e o valor será obtido a partir do pool de strings.
+
+8 - Quando criamos uma string com o operador new, dois objetos são criados. O objeto em questão e mais
+    um que vai para o pool de strings.
+
+9 - existe uma sobrecarga para os métodos indexOf que recebem como segundo parametro a posição onde a 
+    pesquisa será iniciada.

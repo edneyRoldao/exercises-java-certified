@@ -1,9 +1,10 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( C ) - imprime 'uda'
 
 WHAT HAS BEEN TESTED:
-
+	funcionamento do substring
 
 EXPLANATION:
+	.substring(indexInicial, indexFinal - 1);
+	.substring(3, 6);
+	 posições: 3, 4 e 5

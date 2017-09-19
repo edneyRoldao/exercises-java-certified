@@ -1,9 +1,11 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - não compila
 
-WHAT HAS BEEN TESTED:
-
+WHAT HAS BEEN TESTED:	
+	Inicialização de variáveis
 
 EXPLANATION:
+	Devemos garantir que variáveis locais sejam inicializadas
+	quanto estamos utilizando-as, portando o compilador vai 
+	reclamar pois estamos tentando ler a variável no if´e a mesma
+	não foi inicializada

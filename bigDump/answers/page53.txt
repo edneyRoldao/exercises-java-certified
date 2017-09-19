@@ -1,9 +1,11 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - não compila ao tentar invocar o construtor
 
 WHAT HAS BEEN TESTED:
-
+	Construtores do objeto String
 
 EXPLANATION:
+	Nesse caso o compilar é capaz de verificar
+	que estamos passando null dentro do construtor e não deixa
+	compilar. Se o null estivesse armazenado em uma variável,
+	o erro só vai acontecer em tempo de execução.

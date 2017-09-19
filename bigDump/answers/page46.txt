@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - 'Caelum'   e   'Caelum - Ensino e Inovação'
 
 WHAT HAS BEEN TESTED:
-
+	Diferenças entre String e StringBulder
 
 EXPLANATION:
+	Todas as operações de String são imutáveis.

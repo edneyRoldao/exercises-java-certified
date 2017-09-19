@@ -1,9 +1,11 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - i e c
 
 WHAT HAS BEEN TESTED:
-
+	Tipos de dados e casting
 
 EXPLANATION:
+	o casting na questao não é necessário pois temos uma promoção de tipo.
+	ocorre um erro na atribuição do float pois por padrão, tipos flutuantes
+	são double e este por sua vez é maior que o float, nesse caso, temos
+	que aplicar o cast.

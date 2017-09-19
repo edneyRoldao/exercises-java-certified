@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( E ) - compila e imprime: "Bem-vindo null"
 
 WHAT HAS BEEN TESTED:
-
+	Inicialização de veriáveis
 
 EXPLANATION:
+	nesse caso, null será impresso de forma literal

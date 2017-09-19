@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( D ) - trocando & por &&
 
 WHAT HAS BEEN TESTED:
-
+	Operadores - curto circuito
 
 EXPLANATION:
+	leia conceito de curto circuito em java

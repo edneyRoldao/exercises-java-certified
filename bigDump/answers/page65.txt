@@ -1,9 +1,7 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( E ) - compila e imprime A75
 
 WHAT HAS BEEN TESTED:
-
+	Vários conceitos (incremento e decremento, nome de variáveis, curto circuito)
 
 EXPLANATION:

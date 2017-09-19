@@ -1,9 +1,11 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( B )
 
 WHAT HAS BEEN TESTED:
-
+	Tipos de dados
 
 EXPLANATION:
+	Apesar de char e short terem o mesmo tamanho, char só pode receber
+	valores positivos, portanto a compilador vai exigir que seja aplicado
+	um casting para realizar as converções.
+	O long recebe um char sem estourar tranquilamente.

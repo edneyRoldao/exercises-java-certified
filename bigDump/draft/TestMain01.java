@@ -1,5 +1,12 @@
 class TestMain {
 	public static void main(String[] args) {
-		int i = 09;
+
+		int i;
+
+		for(i = 0; i < 5; i++) {
+			if(i++ % 3 == 0) break;
+		}
+
+		System.out.println(i);
 	}
 }

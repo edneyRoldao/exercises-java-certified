@@ -1,9 +1,12 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( D ) - Compila e ocorre um erro em tempo de execução
 
 WHAT HAS BEEN TESTED:
-
+	Objeto do tipo String e construtores
 
 EXPLANATION:
+	O objeto String possuí diversos construtores para vários tipos de 
+	objetos, quando passamos null, a JVM não consegue inferir qual
+	construtor chamar.
+	O erro ocorre em tempo de execução pois o compilador não verifica
+	o valor de uma variável, somente a JVM.

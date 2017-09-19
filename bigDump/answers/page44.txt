@@ -1,9 +1,9 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( B ) - compila e quando executa ocorre um NullPointerException
 
 WHAT HAS BEEN TESTED:
-
+	Inicialização de variáveis
 
 EXPLANATION:
+	Variáveis membro por padrão recebem null e não podemos acessar métodos
+	dos objetos que estão null

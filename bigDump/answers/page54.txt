@@ -1,9 +1,11 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( C ) - nenhuma das alternativas
 
 WHAT HAS BEEN TESTED:
-
+	Precedencia e tipos numéricos
 
 EXPLANATION:
+	De acordo com a regra da precedencia, os valores são somadas da esquerda para direita.
+	Nesse caso, os valores serão somados resultando em 14.
+	mesmo com uma variável do tipo double sendo declara para receber o resultado da conta entre
+	dois inteiros, vai ocorre a perda de precisão pois ambos valores são int. 

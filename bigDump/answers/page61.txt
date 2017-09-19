@@ -1,9 +1,6 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	Trocando todos os operadores para usar ^ (operador exclusivo)
 
 WHAT HAS BEEN TESTED:
-
 
 EXPLANATION:

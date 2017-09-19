@@ -1,9 +1,9 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - não compila
 
 WHAT HAS BEEN TESTED:
-
+	método replace do objeto String - pegadinha
 
 EXPLANATION:
+	Veja que no primeiro parametro é passado uma string e no segundo 
+	um char. Não existe uma sobrecarga para esses parametros.

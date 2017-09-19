@@ -1,9 +1,7 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - imprime 13 e -2
 
 WHAT HAS BEEN TESTED:
-
+	indexOf de StringBuilder
 
 EXPLANATION:

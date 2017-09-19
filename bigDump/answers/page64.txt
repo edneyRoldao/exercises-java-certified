@@ -1,7 +1,5 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( D ) - double não pode ser colocado em um float sem CAST
 
 WHAT HAS BEEN TESTED:
 

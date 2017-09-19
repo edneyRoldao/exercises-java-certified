@@ -1,9 +1,10 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( B ) - erro na linha 5
 
 WHAT HAS BEEN TESTED:
-
+	Promoção de tipos
 
 EXPLANATION:
+	Toda soma de valores numéricos, retorna no mínimo um int, ou seja,
+	para compilar precisamos fazer um cast e adicionar () na soma por causa 
+	da precedencia

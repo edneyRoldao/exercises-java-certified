@@ -1,7 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	- ocorre uma ArithmeticException
+	- infinity positivo
+	- infinity positivo
+	- infinity negativo
 
 WHAT HAS BEEN TESTED:
 

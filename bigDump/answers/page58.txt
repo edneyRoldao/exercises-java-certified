@@ -1,9 +1,9 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( B ) - 3.5
 
 WHAT HAS BEEN TESTED:
-
+	tipos numéricos (vários conceitos)
 
 EXPLANATION:
+	divisão entre dois inteiros, perdemos a precisão.
+	1 + 1 + 1.5 + 0 + 0 + 0 = 3.5

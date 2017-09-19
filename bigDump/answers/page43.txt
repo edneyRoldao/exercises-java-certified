@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
-
+	( A ) - não compila
+	
 WHAT HAS BEEN TESTED:
-
+	Operações do Objeto String
 
 EXPLANATION:
+	O length de string é um método e não um atributo.

@@ -1,9 +1,7 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( B ) - não compila pois a variável local não foi inicializada.
 
 WHAT HAS BEEN TESTED:
-
+	Inicialização de variáveis membro e local
 
 EXPLANATION:

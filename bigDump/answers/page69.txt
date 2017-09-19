@@ -1,9 +1,10 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - imprime 1
 
 WHAT HAS BEEN TESTED:
-
+	incremento e controle de fluxo com break
 
 EXPLANATION:
+	O break vai quebrar o laço interrompendo até o incremento do i no for.
+	Nesse caso, i ainda vale zero pois temos o pos incremento. Vai entrar no
+	if logo na primeiro passada.

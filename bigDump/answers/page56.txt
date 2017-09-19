@@ -1,9 +1,8 @@
-QUESTION AT PAGE: 
-000
-
 RIGHT ANSWER:
+	( A ) - erro de compilação
 
 WHAT HAS BEEN TESTED:
-
+	Básico de java
 
 EXPLANATION:
+	linha 4 totalmente errada
