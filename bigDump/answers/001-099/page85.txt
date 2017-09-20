@@ -1,0 +1,10 @@
+RIGHT ANSWER:
+	( A ) - nao compila
+
+WHAT HAS BEEN TESTED:
+	Operadores
+
+EXPLANATION:
+	temos uma atribuicao de variavel que possui o modificar final.
+	Obs: nós podemos aplicar operações de atribuição de tipos boolean
+	dentre do operadores de condição como if, else, while, etc. 

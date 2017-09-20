@@ -1,0 +1,18 @@
+ABOUT PRIMITIVE TYPES
+
+1 - LITERAIS: quando estamos trabalhando com valores de forma literal, o compilador
+			  é capaz de verificar diversos erros irão acontecer caso seja executada 
+			  a classe e por isso ela não vai compilar. veja os exemplos:
+
+			  A) quando somamos valores literais, não ocorre aquele erro de retornar
+			     no minimo um int para operações matematicas, contudo, o compilador
+			     calcula o resultado da operação e se a mesma estourar a capacidade
+			     do tipo que está recebendo o resultado, ele nao vai deixar compilar.
+			     EXP: sabemos que char nao aceita numeros negativos, se o resultado de
+			     uma subtracao for negativo e esse resultado estiver sendo atribuido a 
+			     um char, nao vai compilar. ( char c = 10 - 11; )
+
+			  B) quando tentamos realizar uma opera de divisao envolvendo numeros e letras
+			     de forma literal, o compilador sabe que vai ocorrer um erro e nao deixa 
+			     compilar.
+			     Precisamos prestar muita atenção na questão da precedencia.

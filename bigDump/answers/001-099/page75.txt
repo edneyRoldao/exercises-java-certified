@@ -1,0 +1,8 @@
+RIGHT ANSWER:
+	( C ) - compila e imprime:	infinity
+
+WHAT HAS BEEN TESTED:	
+	Divisao por zero
+
+EXPLANATION:
+	a divisao de pontos flutuantes por zero retorna um valor infinito.

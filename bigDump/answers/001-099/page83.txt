@@ -1,0 +1,15 @@
+RIGHT ANSWER:
+	( A ) - nao compila
+
+WHAT HAS BEEN TESTED:
+	Comparação de objetos, 
+	sobrescrita de metodos, 
+	relacao entre classes,
+	pegadinha
+
+EXPLANATION:
+	Não precisamos analizar muito a questao, basta verificar que existe um erro
+	na sobrescrita do metodo equals.
+	Object nao possui a propriedade x, portanto temos um erro de compilacao.
+	Sabemos que todos os objetos sao filhos de Object, nesse caso precisamos
+	aplicar o cast para o codigo funcionar.

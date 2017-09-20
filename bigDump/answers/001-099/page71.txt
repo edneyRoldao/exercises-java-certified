@@ -1,0 +1,11 @@
+RIGHT ANSWER:
+	( F ) - não compila	
+
+WHAT HAS BEEN TESTED:
+	tipos de dados
+
+EXPLANATION:
+	O compilador sabe quando um valor vai estourar a capacidade
+	de tipos primitivos quando passados de forma literal e nao
+	deixa compilar.
+	byte tem a capacidade de -128 ate 127

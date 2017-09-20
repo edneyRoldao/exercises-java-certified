@@ -1,0 +1,9 @@
+RIGHT ANSWER:
+	( F ) - compila e roda imprimindo um outro valor
+
+WHAT HAS BEEN TESTED:
+	tipos de dados (primitivos)
+
+EXPLANATION:
+	quando temos operações matemáticas a partir de valores literais,
+	nao enfrentamos o erro que deve retornar no minimo um int.

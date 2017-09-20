@@ -24,3 +24,9 @@ ABOUT STRING AND STRING_BUILDER
 
 9 - existe uma sobrecarga para os métodos indexOf que recebem como segundo parametro a posição onde a 
     pesquisa será iniciada.
+
+10- Atencao com o substring, o mesmo valor nos dois parametros, nao retorna nada. Exemplo:
+	String s = "texto qualquer".substring(3, 3); // valores do parametros iguais.
+	System.out.println(s == null); // false
+	System.out.println(s.isEmpty()); // true
+	Faz todo sentido pois nao podemos cortar uma string a partir da posicao 3 ate a posicao 2.

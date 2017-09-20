@@ -1,0 +1,8 @@
+RIGHT ANSWER:
+	( C ) - compila e da erro em execucao
+
+WHAT HAS BEEN TESTED:
+	arrays
+
+EXPLANATION:
+	temos um arrayIndexOutOfBoundException

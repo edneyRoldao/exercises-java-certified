@@ -1,0 +1,16 @@
+ABOUT SWITCH
+
+	1 - O compilador nao permite switch com tipos flutuantes como double e float
+
+	2 - aceita qualquer tipo menor ou igual a int e string.
+		NAO permite long
+
+	3 - podemos colocar variaveis no lugar dos cases desde que elas tenham
+	    o modificador final, exceto string com valor null.
+	    O compilador consegue verificar que a String é null e final.
+
+	4 - podemos fazer realizar operações matemáticas nos cases.
+
+	5 - default pode aparecer em qualquer lugar do switch.
+
+	6 - podemos colocar case vazio

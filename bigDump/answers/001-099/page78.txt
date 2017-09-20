@@ -1,0 +1,9 @@
+RIGHT ANSWER:
+	( A ) - imprime false
+
+WHAT HAS BEEN TESTED:
+	precedencia, ternario, comparadores
+
+
+EXPLANATION:
+	Atenção na inversao da operação !

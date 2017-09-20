@@ -1,0 +1,7 @@
+RIGHT ANSWER:
+	( E ) compila e imprime: false, true
+
+WHAT HAS BEEN TESTED:
+	Referencia em objetos
+
+EXPLANATION:

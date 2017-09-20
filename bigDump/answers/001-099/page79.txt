@@ -1,0 +1,10 @@
+RIGHT ANSWER:
+	( A ) - compila e imprime: true, false
+
+WHAT HAS BEEN TESTED:
+	Criação de String, pool de Strings
+
+EXPLANATION:
+	No conceito de pool de strings, toda concatenacao de envolve
+	variaveis, cria-se um novo objeto e nao vai para o pool de strings.
+	Quando a concatenacao envolve tipos literais, elas vao para o pool.

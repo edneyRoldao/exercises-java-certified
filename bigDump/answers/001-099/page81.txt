@@ -1,0 +1,16 @@
+RIGHT ANSWER:
+	( C ) - compila e imprime: true, true
+
+WHAT HAS BEEN TESTED:
+	Criação de String, pool de Strings
+
+EXPLANATION:
+	Quando o resultado do retorno de um método do Objeto String for igual
+	ao valor original da string envolvida na operação, nao será criado um 
+	novo objeto e o mesmo recebe a referencia do valor que está no pool
+	de strings. Exemplo:
+	String s = "texto qualquer";
+	String s2 = s.substring(0); // "texto qualquer"
+
+	Como o resultado dessa substring retornou o mesmo valor de s que está na operação,
+	o valor será recupera a partir do pool de strings.

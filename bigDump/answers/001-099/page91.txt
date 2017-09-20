@@ -1,0 +1,7 @@
+RIGHT ANSWER:
+	( B ) - compila e imprime guilherme
+
+WHAT HAS BEEN TESTED:
+	switch
+
+EXPLANATION:

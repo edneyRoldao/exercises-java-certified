@@ -1,0 +1,10 @@
+RIGHT ANSWER:
+	( D ) - compila e imprime: false, false
+	
+WHAT HAS BEEN TESTED:
+	Criação de String, pool de Strings - pegadinha
+
+EXPLANATION:
+	A questao tenta te levar para a analise da criacao do pool de strings,
+	porém, o resultado da segunda substring retorna vazio, portanto, temos
+    logo de cara a comparação de valores diferentes. Estamos comparando "s1" com "s"

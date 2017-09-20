@@ -1,0 +1,16 @@
+RIGHT ANSWER:
+	( B ) - erro de compilacao no else
+
+WHAT HAS BEEN TESTED:
+	operadores de condição
+
+EXPLANATION:
+	Esse codigo possui muitos erros à primeira vista, porém temos que 
+	prestar atenção no primeiro, pois ele nao deixa o codigo compilar.
+	Quando NAO utilizamos chaves {} nos operados condicionais como if e else, 
+	podemos ter apenas um statement, porém o erro só acontece pois temos
+	um else na sequencia, caso ele nao estivesse no codigo, nao teria erro
+	de compilacao. O compilador reclama que nós temos um else sem ter um if.
+	
+	O if vai funcionar normalmente e o segundo system.out separa o if do else
+	causando o erro.

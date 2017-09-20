@@ -1,0 +1,7 @@
+RIGHT ANSWER:
+	( C ) - se invocarmos sem argumento imprime zero.
+
+WHAT HAS BEEN TESTED:
+	Arrays, varargs
+
+EXPLANATION:

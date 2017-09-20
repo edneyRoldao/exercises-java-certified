@@ -1,0 +1,8 @@
+RIGHT ANSWER:
+	( A ) - nao compila
+
+WHAT HAS BEEN TESTED:
+	operadores
+
+EXPLANATION:
+	nao existe o operador elseif

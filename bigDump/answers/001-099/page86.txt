@@ -1,0 +1,10 @@
+RIGHT ANSWER:
+	( A ) - nao compila
+
+WHAT HAS BEEN TESTED:
+	operadores
+
+EXPLANATION:
+	operadores condicionais podem receber atribuicao apenas de 
+	boolean, no caso, temos atribuicao de inteiros.
+	ERROR: int cannot be converted to boolean

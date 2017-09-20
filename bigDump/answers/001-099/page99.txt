@@ -1,0 +1,9 @@
+RIGHT ANSWER:
+	( B ) - compila, imprime alguns numeros e da uma exception.	
+
+WHAT HAS BEEN TESTED:
+	array
+
+EXPLANATION:
+	Está muita claro que em algum momento teremos um ArrayIndexOutOfBoundException,
+	isso vai acontecer na segunda passada.

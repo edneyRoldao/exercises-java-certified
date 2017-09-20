@@ -1,0 +1,8 @@
+RIGHT ANSWER:
+	( B ) -  compila e da uma exception
+
+WHAT HAS BEEN TESTED:
+	Divisao por zero
+
+EXPLANATION:
+	Recebemos um ArithmeticException

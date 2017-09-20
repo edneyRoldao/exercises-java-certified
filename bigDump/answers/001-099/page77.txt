@@ -1,0 +1,12 @@
+RIGHT ANSWER:
+	( B ) - não compila
+
+WHAT HAS BEEN TESTED:
+	Precedencia e operadores
+
+EXPLANATION:
+	temos uma concatenacao de texto e numero, depois uma divisao.
+	Como isso está ocorrendo de forma literal, o compilador sabe
+	que isso vai dar merda e não deixa compilar.
+	Se adicionassemos um numero entre o operador de divisao e a concatenacao,
+	nao ocorreria erro pois vai entrar a precedencia.

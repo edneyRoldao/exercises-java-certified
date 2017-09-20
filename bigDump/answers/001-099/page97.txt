@@ -1,0 +1,8 @@
+RIGHT ANSWER:
+	( B ) - segunda e terceira linha nao compilam.
+
+WHAT HAS BEEN TESTED:
+	arrays - pegadinha
+
+EXPLANATION:
+	variáveis com o mesmo nome.

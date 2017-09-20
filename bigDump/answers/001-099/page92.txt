@@ -1,0 +1,7 @@
+RIGHT ANSWER:
+	( A ) - erro de compilacao
+
+WHAT HAS BEEN TESTED:
+	switch
+
+EXPLANATION:

@@ -1,0 +1,8 @@
+RIGHT ANSWER:
+	( C ) - nao compila somente na declaracao de c2	
+
+WHAT HAS BEEN TESTED:
+	tipos de dados (primitivos)
+
+EXPLANATION:
+	char não aceita números negativos.

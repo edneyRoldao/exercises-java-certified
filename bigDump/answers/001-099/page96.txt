@@ -1,0 +1,5 @@
+RIGHT ANSWER:
+	( B ) - a segunda linha nao compila
+
+WHAT HAS BEEN TESTED:
+	ARRAY

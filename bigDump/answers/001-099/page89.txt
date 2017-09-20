@@ -1,0 +1,7 @@
+RIGHT ANSWER:
+	( D ) - ao rodar com 5 argumentos, imprime: "mais argumentos"
+
+WHAT HAS BEEN TESTED:
+	Operador condicional switch
+
+EXPLANATION:
