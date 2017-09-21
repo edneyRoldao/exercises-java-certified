@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( D ) 
+- compila e ao rodar imprime true
 
 WHAT HAS BEEN TESTED:
-
+	operacoes do arrayList
 
 EXPLANATION:

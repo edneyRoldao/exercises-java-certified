@@ -1,8 +1,13 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( C ) 
+- o codigo compila e roda em loop infinito
 
 WHAT HAS BEEN TESTED:
-
+	laço com while
 
 EXPLANATION:
+	por causa do system.out apos while, o codigo nao vai compilar se fizermos
+	as seguintes alterações de forma independente:
+	1 - adicionar o modificador final na variavel rodar.
+	2 - colocar true de forma literal no while
+	Em qualquer um dos casos teremos um UNREACHABLE STATEMENT

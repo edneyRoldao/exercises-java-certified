@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( B ) 
+- compila e imprime:	0 ate 9
 
 WHAT HAS BEEN TESTED:
-
+	laco com for
 
 EXPLANATION:
+	ver resposta da questao anterior

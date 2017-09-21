@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	operacoes arrayList
 
 EXPLANATION:
+	quanto nao passamos parametros para o metodo toArray, ele sempre
+	vai retornar um array de Object e estamos tentado atribuir à um
+	array de string sem cast.

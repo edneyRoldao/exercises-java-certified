@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( C ) 
+- compila e imprime:	a, b, c, d
 
 WHAT HAS BEEN TESTED:
-
+	forEach - enhanced for
 
 EXPLANATION:
+	s é uma variável local, portando existe somente dentro do for.

@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( E ) 
+- compila e imprime:	outro valor
 
 WHAT HAS BEEN TESTED:
-
+	operadores logicos
 
 EXPLANATION:

@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( B ) 
+- compila e imprime:	a e d
 
 WHAT HAS BEEN TESTED:
-
+	operacoes de arrayList
 
 EXPLANATION:

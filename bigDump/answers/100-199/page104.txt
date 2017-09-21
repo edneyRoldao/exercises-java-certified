@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( F ) 
+- compila e imprime 30
 
 WHAT HAS BEEN TESTED:
-
+	declaracao de array multi...
 
 EXPLANATION:

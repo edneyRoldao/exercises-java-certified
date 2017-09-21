@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( C ) 
+- compila e imprime:	zero
 
 WHAT HAS BEEN TESTED:
-
+	laco;	do while
 
 EXPLANATION:
+	

@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( B ) 
+- 0 a 2 argumentos - loop infinito
+  3 a 9 argumentos - nao imprime nada
+  10 ou mais	   - imprime finalizou
 
 WHAT HAS BEEN TESTED:
-
+	laco: do while
 
 EXPLANATION:

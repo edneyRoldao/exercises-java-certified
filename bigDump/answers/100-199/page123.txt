@@ -1,8 +1,12 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( E ) 
+- compila e imprime:	0 1 1 2
 
 WHAT HAS BEEN TESTED:
-
-
+	laco for
+	
 EXPLANATION:
+	o system.out no for é permitido e todo codigo na ultima parte do for onde
+	geralmente colocamos o incremento, é sempre executado após todo a execução
+	do bloco. Temos que lembra que o for é uma forma mais enxuta de escrevemos
+	um while.

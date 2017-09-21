@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila, erro ao declarar zyx
 
 WHAT HAS BEEN TESTED:
-
+	declaracao de array multi...
 
 EXPLANATION:

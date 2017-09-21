@@ -33,9 +33,9 @@ ABOUT ARRAYS
 	c) .toArray()        converte sempre para um array de Object ou você pode:
 	   .toArray(new String[arrayName.size()]) ou
 	   .toArray(new String[0]) a JVM consegue ver o tamanho do array
-	d) .add(pisicao, string)
+	d) .add(pisicao, string) - sobrescrever o valor existente na posicao.
 	e) .remove(posicao)
-	f) .set(0, string) troca o elemento da posicao passada no 1º param
+	f) .set(0, string) troca o valor do elemento da posicao passada no 1º param
 	g) .indexOf(string) e lastIndexOf(string) precisa do equals implementado 
 
 9 - Usando Iterator
@@ -44,3 +44,21 @@ ABOUT ARRAYS
 	while(it.hasNext())
 		var a = it.next();
 ******  it.remove()	VAI REMOVER O ELEMENTO DA LISTA
+
+10 - a utilizacao de generics é opcional
+
+11 - quando usamos to array sem parametro, é retornado um array de object,
+     nao importa qual o tipo de objeto é o array.
+     para retornar o tipo correto, precisamos instanciar o tipo do array
+     dentro do paramento passando o tamanho do arrayList ou zero, no caso 
+     de zero a JVM consegue inferir o tamanho.
+
+     ArrayList<String> list = new ArrayList<>();
+     Object[] array = list.toArray();							 - compila
+     String[] array = list.toArray();							 - nao compila
+     String[] array = list.toArray(new String[list.size()]);	 - compila
+     String[] array = list.toArray(new String[0]);				 - compila
+
+12 - podemos usar iterator no for tradicional.
+
+13

@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	laço
 
 EXPLANATION:
+	quando nao temos a comdicao de parada no for e apos o mesmo exitem mais instrucoes,
+	ocorre um erro de UNREACHABLE STATEMENT.

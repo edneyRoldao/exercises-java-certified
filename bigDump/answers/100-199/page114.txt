@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( B ) 
+- compila e imprime:	a
 
 WHAT HAS BEEN TESTED:
-
+	operacoes de arrayList
 
 EXPLANATION:
+	O for tradicional permite o uso de iterators, o metodo add
+	redefine o valor da posicao passada no primeiro parametro.

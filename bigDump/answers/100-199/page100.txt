@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( F )
+- compile e imprime: 2, -5
 
 WHAT HAS BEEN TESTED:
-
+	array e laços
 
 EXPLANATION:
+	apos x[1] receber -5, sai do laço

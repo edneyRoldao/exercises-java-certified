@@ -1,0 +1,10 @@
+ABOUT LOOPS
+
+**************    FOR    **************
+
+1 - todos os statements dentro do for sao opcionais, porém precisamos colocar os ; para
+    compilar. for(;;)
+
+2 - quando nao temos a condicao de parada declarada, entramos em loop infinito, contudo,
+    se exisir alguma instrucao depois do for, o codigo nem compila pois o compilador
+    sabe que o codigo nunca será executado. UNREACHABLE STATEMENT

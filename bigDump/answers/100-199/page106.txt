@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	tipos de dados, declaracao de array
 
 EXPLANATION:
+	o codigo nao compila por diversos motivos.

@@ -1,8 +1,12 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	laco com for, pegadinha
 
 EXPLANATION:
+	podemos declarar mais de uma variável no for, porém a sintaxe está errada.
+	Funciona igual declaracao de variavel normal.
+	int i = 0, j = 1 (correto)
+	int i = 0, int j = 1 (errado)

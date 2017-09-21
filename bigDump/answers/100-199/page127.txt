@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	pegadinha
 
 EXPLANATION:
+	esta faltando um ; apos o system.out

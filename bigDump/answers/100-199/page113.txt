@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	operacoes arrayList
 
 EXPLANATION:
+	o metodo add possui uma sobrecarga que recebe como primeiro parametro
+	a posicao e segundo o valor. Na questão, a ordem dos parametros está
+	trocada.

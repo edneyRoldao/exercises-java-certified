@@ -1,8 +1,7 @@
 RIGHT ANSWER:
-(  ) 
-- 
+- ( A, B, F, J) 
 
 WHAT HAS BEEN TESTED:
-
+	declaracao de array
 
 EXPLANATION:

@@ -1,8 +1,12 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( D ) 
+- compila e imprime true
 
 WHAT HAS BEEN TESTED:
-
+	Casting de array e refencia de objetos
 
 EXPLANATION:
+	como o array de object recebe a mesma referencia em memoria do
+	array de string, a atribuicao de "Daniela" na posicao 1, vai
+	refletir para os dois arrays, visto que ambos tem o mesmo endereço
+	na memoria.

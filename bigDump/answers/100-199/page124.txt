@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( B ) 
+- compila e imprime:	false
 
 WHAT HAS BEEN TESTED:
-
+	laco: do while
 
 EXPLANATION:

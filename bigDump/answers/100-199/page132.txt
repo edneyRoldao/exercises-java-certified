@@ -1,6 +1,6 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( D ) 
+- for ou while ou do... while
 
 WHAT HAS BEEN TESTED:
 

@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( H ) 
+- compila e imprime:	5
 
 WHAT HAS BEEN TESTED:
-
+	operacoes arrayList
 
 EXPLANATION:

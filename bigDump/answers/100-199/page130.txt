@@ -1,6 +1,6 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( B ) 
+- enhanced for
 
 WHAT HAS BEEN TESTED:
 
