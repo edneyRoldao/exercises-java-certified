@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	incremento
 
 EXPLANATION:
+	estamos usando o operador de incremento em um metodo.

@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- o codigo nao compila.
 
 WHAT HAS BEEN TESTED:
-
+	heranca
 
 EXPLANATION:
+	parece que temos uma recursao na heranca de classes.
+	CYCLIC INHERITANCE.

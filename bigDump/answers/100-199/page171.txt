@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( D ) 
+- compila e imprime 10
 
 WHAT HAS BEEN TESTED:
-
+	metodos e referencia à objetos
 
 EXPLANATION:

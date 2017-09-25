@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( B ) 
+- compila e imprime zero
 
 WHAT HAS BEEN TESTED:
-
+	metodos e referencia à objetos
 
 EXPLANATION:
+	estamos redefinindo o valor da variavel local, ou seja, nao estamos 
+	acessando a variavel membro.
