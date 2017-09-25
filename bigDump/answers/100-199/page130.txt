@@ -3,6 +3,6 @@ RIGHT ANSWER:
 - enhanced for
 
 WHAT HAS BEEN TESTED:
-
+	laços:	for e enhanced for
 
 EXPLANATION:

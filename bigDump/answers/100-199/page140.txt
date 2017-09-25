@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	declaracao de metodos
 
 EXPLANATION:

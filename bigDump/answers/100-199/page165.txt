@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	modificadores de acesso
 
 EXPLANATION:
+	O modificador default so pode ser utilizado em interfaces e a partir
+	do java 1.8.
+	Quando nao colocamos o modificador em um metodo, ele é package default

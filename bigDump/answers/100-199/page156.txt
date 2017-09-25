@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( D ) 
+- nao compila na definicao das classes B e C
 
 WHAT HAS BEEN TESTED:
-
+	construtores
 
 EXPLANATION:
+	declaracao das classes errada.

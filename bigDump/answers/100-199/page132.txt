@@ -3,6 +3,6 @@ RIGHT ANSWER:
 - for ou while ou do... while
 
 WHAT HAS BEEN TESTED:
-
+	laços: 	em geral
 
 EXPLANATION:

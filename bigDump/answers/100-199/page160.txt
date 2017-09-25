@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila: erro na classe Teste
 
 WHAT HAS BEEN TESTED:
-
+	modificadores de acesso em construtores
 
 EXPLANATION:
+	estamos instanciando a classe Cliente que está em outro pacote, contudo o construtor
+	está como default, ou seja, só classes do mesmo pacote podem instanciar tal classe.

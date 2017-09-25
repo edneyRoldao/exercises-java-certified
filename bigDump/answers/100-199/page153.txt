@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( B ) 
+- compila e imprime:	1
 
 WHAT HAS BEEN TESTED:
-
+	sobrescrita de metodos
 
 EXPLANATION:
+ sempre chama o mais especifico.

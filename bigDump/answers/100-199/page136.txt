@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( J ) 
+- compila e ao rodar com 0 argumentes imprime 1 ate 15, fim
 
 WHAT HAS BEEN TESTED:
-
+	laços:	switch
 
 EXPLANATION:

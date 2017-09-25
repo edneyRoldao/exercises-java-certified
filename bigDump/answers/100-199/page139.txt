@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( B ) 
+- nao compila: erro ao invocar o metodo c
 
 WHAT HAS BEEN TESTED:
-
+	tipo de retorno
 
 EXPLANATION:
+	estamos retornando um long quando o metodo espera voltar um int.

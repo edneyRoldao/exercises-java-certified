@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( B ) 
+- compila e imprime:	1
 
 WHAT HAS BEEN TESTED:
-
+	sobrecarga de metodos
 
 EXPLANATION:
+	sempre chama o tipo mais especifico.

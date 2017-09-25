@@ -1,0 +1,10 @@
+ABOUT SOBRECARGA
+
+1 - Sabemos que é possivel aplicar sobrecarga de metodos entre classes Pai e Filho que
+    tudo compila tranquilamente, porém, em alguns casos pode ocorrer de o compilar se 
+    confundir quando tentamos acessar metodos de referencia a partir de metodos estaticos.
+    Imagine um metodo de instancia que recebe um tipo mais especifico e que tem seu metodo
+    sobrescrito que recebe seu pai (tipo mais generico) e que tem o modificar static.
+    Agora esse metodo é chamado diretamente sem ser acessado por meio de um objeto dentro de um 
+    metodo estatico. O compilador nao sabe inferir qual metodo utilizar nesses casos. 
+    O codigo nao vai compilar

@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila.
 
 WHAT HAS BEEN TESTED:
-
+	construtores
 
 EXPLANATION:
+	O compilar consegue perceber que está ocorrendo uma chamada recursiva e nao 
+	deixa compilar.
+	RECURSIVE CONSTRUCTOR INVOCATION.

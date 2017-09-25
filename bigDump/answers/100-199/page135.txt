@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( D ) 
+- compila e imprime:  0-19, 21-24, 26-29
 
 WHAT HAS BEEN TESTED:
-
+	laços: 	usando label, break, continue 
 
 EXPLANATION:

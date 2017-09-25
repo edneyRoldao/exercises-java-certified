@@ -3,6 +3,6 @@ RIGHT ANSWER:
 - compila e sai
 
 WHAT HAS BEEN TESTED:
-
+ laços:	do...while
 
 EXPLANATION:

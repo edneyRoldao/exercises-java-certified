@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	estrutura switch, for, metodos
 
 EXPLANATION:
+	mesmo a variavel do parametro ser final, ela não possui as caracteristicas de uma
+	constante pois ela pode mudar a cada invocação do método, portanto, o codigo nao 
+	compila pois os cases só aceitam constantes.

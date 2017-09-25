@@ -1,8 +1,12 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	modificadores de acesso em metodos
 
 EXPLANATION:
+	o compilador nao sabe que ele deve instanciar a classe que está sendo
+	importada pois nao estamos utilizando o full qualified name. Ele está
+	considerando a própria classe e a mesma no possuí o metodo que esta sendo
+	invocado.

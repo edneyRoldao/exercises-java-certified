@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( E ) 
+- compila e joga uma exception
 
 WHAT HAS BEEN TESTED:
-
+	construtores
 
 EXPLANATION:
+	Aqui nós tambem temos uma chamada recursiva aos construtores, porém o compilador
+	não consegue verificar cursão em construtures que sao chamados por meio da 
+	criacao dos objetos pelo operador new.

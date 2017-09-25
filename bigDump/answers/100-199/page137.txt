@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	metodos com e sem retorno, switch, for
 
 EXPLANATION:
+	return vazio só é aceito com métodos void.

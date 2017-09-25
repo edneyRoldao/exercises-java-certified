@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( D ) 
+- compila e da uma exception
 
 WHAT HAS BEEN TESTED:
-
+	sobrescrita de metodos
 
 EXPLANATION:
+	mesmo a chamado do metodo que está sendo sobrescrito ser invocado no construtor
+	da classe pai, o chamado chamado será o da classe filha.

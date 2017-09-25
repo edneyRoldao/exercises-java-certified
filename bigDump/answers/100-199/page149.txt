@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	sobrecarga, herança (pegadinha)
 
 EXPLANATION:
+	estamos chamando um metodo de instancia em um metodo de classe diretamente sem
+	criar um objeto para acessa-lo.

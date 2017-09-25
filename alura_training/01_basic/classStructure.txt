@@ -1,0 +1,5 @@
+ABOUT ESTRUTURA DE CLASSE
+
+1 - quando temos uma classe que chama um objeto onde a mesma possui o mesmo nome,
+    para referenciar a outra classe, temos que usar o fullQualifiedName, caso 
+    contrário o compilador vai considerar a propria classe.

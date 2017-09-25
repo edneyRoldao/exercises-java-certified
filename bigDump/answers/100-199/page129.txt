@@ -3,7 +3,7 @@ RIGHT ANSWER:
 - for
 
 WHAT HAS BEEN TESTED:
-	lacos
+	laços: todos
 
 EXPLANATION:
 	

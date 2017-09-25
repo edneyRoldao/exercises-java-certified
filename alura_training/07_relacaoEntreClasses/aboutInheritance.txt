@@ -24,3 +24,7 @@ ABOUT INHERITANCE
 	    Pode acontecer de ocorre uma recursão por meio da instanciação de um
 	    objeto dentro do construtor e isso o compilador não é capaz de enxergar,
 	    portanto teremos um erro de execução do tipo: StackOverFlowError
+
+	7 - quando usamos this. metodo ou variavel, ela faz referencia à aos atributos e métodos da
+	    propria classe, nao é possivel referenciar membros da classe pai desse forma. Teremos um
+	    erro.

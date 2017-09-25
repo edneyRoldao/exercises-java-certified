@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	vai saber
 
 EXPLANATION:
+	a variavel local a faz parte do escopo do primeiro for, porem, o codigo
+	esta tentando referencia-la no segundo if que já está fora do escopo do
+	for.

@@ -1,8 +1,15 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila.
 
 WHAT HAS BEEN TESTED:
-
+	heranca, sobrescarga, metodos estaticos e de referencia
 
 EXPLANATION:
+	O compilador nao consegue inferir quando chamar um metodo estático e quando
+	chamar um metodo de referencia, por isso que temos um erro de compilação
+	pois está sendo chamado o método de referencia diretamente sem o uso da 
+	referencia de um objeto para acessá-lo e dentro de um metodo estatico.
+	Se o metodo estatico fosse apagado, o codigo compilava pois temos uma 
+	sobrecarga que é statico e que recebe o tipo mais generico do metodo que
+	esta causando o erro.

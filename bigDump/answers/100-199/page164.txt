@@ -1,8 +1,12 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( B ) 
+- imprime:	1
 
 WHAT HAS BEEN TESTED:
-
+	sobrescrita, heranca
 
 EXPLANATION:
+	O metodo chamado é o da classe pai, pois este está visivel, apesar
+	do metodo presente na classe filha ser mais específico, ele nao esta
+	acessível na classe de Teste pois o mesmo possui modificador protected e
+	so pode ser invocado por classes do mesmo pacote.

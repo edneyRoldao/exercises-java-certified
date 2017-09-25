@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila, erro ao invocar x
 
 WHAT HAS BEEN TESTED:
-
+	metodos e referencia com this
 
 EXPLANATION:
+	quando usamos this. metodo ou variavel, ela faz referencia à aos atributos e métodos da
+	propria classe, nao é possivel referenciar membros da classe pai desse forma. Teremos um
+	erro.
