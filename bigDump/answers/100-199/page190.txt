@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	pegadinha
 
 EXPLANATION:
+	perceba que nos metodos y(D b) e y(C b) estamos tentando acessar variaveis que nao
+	existem.

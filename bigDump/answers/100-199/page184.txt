@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	exception
 
 EXPLANATION:
+	estamos passando um double para um metodo que espera receber um int. temos aquele
+	erro de perda da precisao.

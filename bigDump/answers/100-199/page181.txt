@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	estrutura de classe, exceptions
 
 EXPLANATION:
+	esta faltando o import do pacota java.io

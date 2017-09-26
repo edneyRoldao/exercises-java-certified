@@ -1,8 +1,12 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	heranca, sobrescrita de metodos
 
 EXPLANATION:
+	Estamos utilizando super para acessar o metodo x da classe pai, como a classe B
+	só possui Object como sua superclass pois a mesma nao está extendendo ninguém de forma
+	explicita, temos um erro de compilacao devido a classe Object nao possuir o metodo x.
+

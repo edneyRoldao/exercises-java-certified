@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	interfaces
 
 EXPLANATION:
+	interfaces nao podem ter metodos com implementacao, apenas os metodos com o
+	modificador default.

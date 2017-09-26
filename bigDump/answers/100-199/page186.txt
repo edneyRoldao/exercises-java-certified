@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	exception e herança
 
 EXPLANATION:
+	uma classe nao lança exception, apenas metodos e construtores

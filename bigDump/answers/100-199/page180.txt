@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	construtores, modificadores de acesso e herança	- pegadinha
 
 EXPLANATION:
+	perceba que na classe B temos um metodo estatico que chama um construtor da classe
+	A que nao existe mais. A classe A so tem um construtor que recebe String.

@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( B ) 
+- compila e imprime 1
 
 WHAT HAS BEEN TESTED:
-
+	metodos e sobrescrita
 
 EXPLANATION:

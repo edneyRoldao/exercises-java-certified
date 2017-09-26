@@ -1,8 +1,19 @@
 RIGHT ANSWER:
 (  ) 
-- 
+- compila e imprime "b, b, c"
 
 WHAT HAS BEEN TESTED:
-
+	herança e exception
 
 EXPLANATION:
+	Não existe opcao para a reposta correta.
+	Passo a Passo da execucao:
+
+	01 - x invocado na classe D
+	02 - x invocado na classe C (imprime b)
+	03 - x invocado na classe B (primeira chamada fica empilhada, x é invocado novamente)
+	04 - x invocado na classe D
+	05 - x invocado na classe C (imprime b)
+	06 - x invocado na classe B
+		   como i possui valor -1 nesse momento, ocorre o desempilhamento e a primeira chamada
+		   ao metodo x continua imprimindo c.		

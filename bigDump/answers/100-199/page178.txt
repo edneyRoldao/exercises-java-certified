@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	construtores e herança
 
 EXPLANATION:
+	Quando uma classe fechar o acesso aos seus construtores com o modificador
+	private, nao podemos extende-la pois nao temos acesso ao seu construtor.

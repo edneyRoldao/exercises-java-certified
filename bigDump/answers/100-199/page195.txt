@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
+	estrutura e imports, herança, modificadores de acesso
 
 EXPLANATION:
+	nao podemos chamar o metodo fecha da classe conta pois o mesmo
+	tem o modificador default e só pode ser acesso por classes
+	que estao no mesmo pacote. A classe de teste A nao consegue enxergar o metodo

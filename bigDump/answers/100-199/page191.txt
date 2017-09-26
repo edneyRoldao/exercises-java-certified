@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( C ) 
+- compila e imprime 2
 
 WHAT HAS BEEN TESTED:
-
+	herança e sobrescrita de metodos
 
 EXPLANATION:

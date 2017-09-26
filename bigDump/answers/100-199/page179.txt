@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  ) 
-- 
+( A ) 
+- nao compila
 
 WHAT HAS BEEN TESTED:
-
-
+	modificadores de acesso e herança
+	
 EXPLANATION:
+	A variavel na classe pai está com modificador private e so pode
+	ser acessada pela propria classe.

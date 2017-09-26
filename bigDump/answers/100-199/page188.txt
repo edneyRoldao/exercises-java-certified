@@ -1,8 +1,7 @@
 RIGHT ANSWER:
-(  ) 
-- 
-
-WHAT HAS BEEN TESTED:
-
+	Idem questao anterior.
 
 EXPLANATION:
+	O utilizacao do this na linha 5 nao altera nada.
+	Quando usamos o this, ele vai fazer um lookup o procurar a primeira implementacao
+	a partir do tipo que foi instanciado.

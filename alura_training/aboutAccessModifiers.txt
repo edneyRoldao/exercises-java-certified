@@ -1,0 +1,9 @@
+MODIFICADORES DE ACESSO
+
+Classes
+
+1 - podem ser public ou default("quando nao declaramos")
+
+Membros
+
+2 - podem ser public, protected, default(quando nada) e private

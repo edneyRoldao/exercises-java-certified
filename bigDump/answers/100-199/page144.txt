@@ -6,6 +6,6 @@ WHAT HAS BEEN TESTED:
 	metodos e referencia com this
 
 EXPLANATION:
-	quando usamos this. metodo ou variavel, ela faz referencia à aos atributos e métodos da
-	propria classe, nao é possivel referenciar membros da classe pai desse forma. Teremos um
-	erro.
+	Utilizamos o operador this para acessar membros de instancia, ou seja,
+	metodos e atributos que nao sao static. nao precisamos do this para acessar
+	o metodo, podemos invocar diretamente.
