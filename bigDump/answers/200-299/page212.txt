@@ -1,6 +1,9 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( A )
+- nao compila
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	sintaxe
 
- EXPLANATION: 
+EXPLANATION:
+	sintaxe totalmente errada

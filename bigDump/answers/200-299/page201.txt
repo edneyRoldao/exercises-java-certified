@@ -1,6 +1,11 @@
 RIGHT ANSWER: 
- (  ) 
+ ( D ) 
+ 	compila roda lancando um classCastException
 
  WHAT HAS BEEN TESTED: 
+ 	heranca, casting
 
  EXPLANATION: 
+ 	Quando eu tenho uma variavel filha e tento obter uma referencia a partir do pai, recebemos
+	um erro de classCastException, exp: Filho f = (Filho) new Pai();
+	a classe filha já tem tudo do pai, nao precisa disso.

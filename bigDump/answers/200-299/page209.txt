@@ -1,6 +1,9 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( C )
+- compila e imprime 2
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	heranca e escopo de variaveis
 
- EXPLANATION: 
+EXPLANATION:
+

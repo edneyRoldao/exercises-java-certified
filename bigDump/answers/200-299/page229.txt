@@ -1,6 +1,9 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( C )
+- compila e imprime "b" e "c"
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	tratamento de exceptions
 
- EXPLANATION: 
+EXPLANATION:
+

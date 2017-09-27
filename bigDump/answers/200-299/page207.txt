@@ -1,6 +1,9 @@
 RIGHT ANSWER: 
- (  ) 
+ ( B ) 
+ 	nao compila dentro do metodo main
 
  WHAT HAS BEEN TESTED: 
+ 	pegadinha
 
  EXPLANATION: 
+ 	instanceOf nao existe, o que existe é o instanceof

@@ -1,6 +1,10 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( A )
+- nao compila
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	escopo de variaveis
 
- EXPLANATION: 
+EXPLANATION:
+	o this() só pode ser usado dentro de construtores, nesse caso, estamos chamando em um
+	metodo, além disso, nao existe um construtor na classe que recebe uma string como parametro.	

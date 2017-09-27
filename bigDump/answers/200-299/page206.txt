@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
- (  ) 
+ ( D ) 
+ 	compila e lança uma exception
 
  WHAT HAS BEEN TESTED: 
+  	herança e casting
 
  EXPLANATION: 

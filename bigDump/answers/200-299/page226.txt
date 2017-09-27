@@ -1,6 +1,10 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+- Exception é um mecanismo para que você pode usar para determinar o que fazer
+  quando algo inesperado acontece.
 
- WHAT HAS BEEN TESTED: 
+- Exception é um mecanismo para separar o tratamento de erros da lógica principal
 
- EXPLANATION: 
+WHAT HAS BEEN TESTED:
+
+EXPLANATION:
+

@@ -1,6 +1,16 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( A )
+- nao compila
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	construtores e ordem de construcao do objeto
 
- EXPLANATION: 
+EXPLANATION:
+	É importante ficar claro que, quando chamamos o this dentro de um construtor,
+	significa que estamos delegando a construcao do objeto para este outro construtor e assim
+	por diante. Quando chegar no construtor que realmente vai criar o objeto, ele vai chamar o
+	construtor da classe pai super() que está implícito e depois de construir o objeto pai,
+	o objeto em questão será criado.
+	Baseando-se nessa informacao, nao podemos invocar um metodo dentro do this pois nenhum
+	objeto foi criado ainda.
+

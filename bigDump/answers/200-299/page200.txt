@@ -1,6 +1,9 @@
 RIGHT ANSWER: 
- (  ) 
+ ( C ) 
+ 	compila e roda sem dar exception
 
  WHAT HAS BEEN TESTED: 
+ 	herança e interfaces
 
  EXPLANATION: 
+ 	Uma interface pode extendar várias outras interfaces

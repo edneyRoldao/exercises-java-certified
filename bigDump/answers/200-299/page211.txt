@@ -1,6 +1,11 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( A )
+- nao compila
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	acesso à variaveis de instancia e estaticas
 
- EXPLANATION: 
+EXPLANATION:
+	estamos tentando ler uma variavel membro dentro de um metodo estatico
+	sem a instanciacao de um objeto.
+

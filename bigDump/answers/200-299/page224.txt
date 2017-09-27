@@ -1,6 +1,13 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( C )
+- compila e imprime "b"
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
 
- EXPLANATION: 
+EXPLANATION:
+	Quando sobrescrevemos um metodo, seu tipo de retorno pode mudar, porém deve ser um tipo
+	especializado do metodo que ele esta sobrescrevendo. Exemplo: podemos sobrescrever um
+	método que retorna Object por um que retorna String pois ela é filha de object, já o contrário,
+	teremos um erro de compilacao.
+
+

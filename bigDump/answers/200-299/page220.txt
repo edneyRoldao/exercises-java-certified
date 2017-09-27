@@ -1,6 +1,10 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( A )
+- nao compila
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	metodos abstratos
 
- EXPLANATION: 
+EXPLANATION:
+	metodos abstratos nao tem implementacao.
+	ABSTRACT METHODS CANNOT HAVE A BODY

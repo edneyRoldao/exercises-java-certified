@@ -1,6 +1,10 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( A )
+- nao compila
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	tratamento de exceptions, pegadinha
 
- EXPLANATION: 
+EXPLANATION:
+	Perceba que temos uma variavel local nome que nao foi inicializada e está sendo
+	utilizada. O compilador nao deixa fazer isso.

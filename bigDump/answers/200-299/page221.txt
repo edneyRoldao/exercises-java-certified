@@ -1,6 +1,9 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( B )
+- compila e imprime 1
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	modificador abstract e sobrescrita
 
- EXPLANATION: 
+EXPLANATION:
+	podemos redeclarar um metodo abstract, porém nao é necessário.

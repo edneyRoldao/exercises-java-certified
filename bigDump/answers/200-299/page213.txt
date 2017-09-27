@@ -1,6 +1,12 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( A )
+- nao compila
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	construtores
 
- EXPLANATION: 
+EXPLANATION:
+	quando utilizamos this pra chamar um construtor, ele deve ser a primeira linha.
+	No caso, temos um this(s) na segunda linha, sem mencionar que a classe nao possui
+	construtor vazio.
+	CALL TO THIS MUST BE FIRST STATEMENT IN CONSTRUCTOR.

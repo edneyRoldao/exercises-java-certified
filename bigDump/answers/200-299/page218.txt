@@ -1,6 +1,14 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( B )
+- compila e imprime 2
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	ordem de construcao dos objetos, heranca
 
- EXPLANATION: 
+EXPLANATION:
+	Em tempo de execução, a JVM vai verificar qual o tipo da instancia e fazer o
+	lookup a partir dessa instancia. Como a instancia é do tipo C, a JVM procura
+	a primeira implementacao de y a partir de C e se nao achar em C, ele procura nas
+	classes pai.
+	Obs: mesmo que a chamada do metodo seja feita na classe Pai o lookup será aplicado
+	seguindo a regra acima.

@@ -1,6 +1,11 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( A )
+- nao compila
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	construtores
 
- EXPLANATION: 
+EXPLANATION:
+	só podemos chamar o this uma vez dentro do construtor, e ele deve ser a primeira
+	instrução. Nesse caso estamos chamando dois construtores da classe. Nao faz sentido.
+

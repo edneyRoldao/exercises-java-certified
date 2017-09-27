@@ -1,6 +1,9 @@
 RIGHT ANSWER: 
- (  ) 
+ ( C ) 
+ 	compila e imprime true
 
  WHAT HAS BEEN TESTED: 
 
+
  EXPLANATION: 
+ 	a instancia é do tipo D

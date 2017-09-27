@@ -4,12 +4,12 @@ import java.nio.file.*;
 class CriaArquivo {
 	public static void main(String[] args) throws IOException {
 		criarArquivos(
-			300,
-			343,
+			209,
+			299,
 			"page",
-			"C:\\workspace\\Edney\\project\\source\\exercises-java-certified\\bigDump\\answers\\300-399\\",
+			"C:\\workspace\\Edney\\project\\source\\exercises-java-certified\\bigDump\\answers\\200-299\\",
 			".txt",
-			"RIGHT ANSWER: \n(  ) \n\nWHAT HAS BEEN TESTED: \n\nEXPLANATION:\n"
+			"RIGHT ANSWER:\n(  )\n-\n\nWHAT HAS BEEN TESTED:\n\nEXPLANATION:\n\n"
 			);
 	}
 

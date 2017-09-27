@@ -25,6 +25,27 @@ ABOUT INHERITANCE
 	    objeto dentro do construtor e isso o compilador não é capaz de enxergar,
 	    portanto teremos um erro de execução do tipo: StackOverFlowError
 
-	7 - quando usamos this. metodo ou variavel, ela faz referencia à aos atributos e métodos da
-	    propria classe, nao é possivel referenciar membros da classe pai desse forma. Teremos um
-	    erro.
+	7 - quando usamos this. metodo ou variavel, ele vai fazer um lookup na herança entre as classes
+	    e chamar o primeiro que foi encontrado.
+
+	8 - Não existe multipla herança entre classes, porém uma interface pode extender mais que uma
+	    outra interface separando-as por vírgulas
+
+	9 - Quando eu tenho uma variavel filha e tento obter uma referencia a partir do pai, recebemos
+	    um erro de classCastException, exp: Filho f = (Filho) new Pai();
+	    a classe filha já tem tudo do pai, nao precisa disso.
+
+	10- uma interface nunca implementa outra interface
+
+	11- É importante ficar claro que, quando chamamos o this dentro de um construtor,
+		significa que estamos delegando a construcao do objeto para este outro construtor e assim
+		por diante. Quando chegar no construtor que realmente vai criar o objeto, ele vai chamar o
+		construtor da classe pai super() que está implícito e depois de construir o objeto pai,
+		o objeto em questão será criado.
+		Baseando-se nessa informacao, nao podemos invocar um metodo dentro do this pois nenhum
+		objeto foi criado ainda.
+
+	12- Quando sobrescrevemos um metodo, seu tipo de retorno pode mudar, porém deve ser um tipo
+	    especializado do metodo que ele esta sobrescrevendo. Exemplo: podemos sobrescrever um
+	    método que retorno Object por um que retorno String pois ela é filha de object, já o contrário,
+	    teremos um erro de compilacao.

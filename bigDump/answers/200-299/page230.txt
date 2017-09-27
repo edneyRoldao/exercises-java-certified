@@ -1,6 +1,9 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( A )
+- nao compila
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	tratamento de exceptions, pegadinha
 
- EXPLANATION: 
+EXPLANATION:
+	novamente a variavel nome nao foi inicializada

@@ -1,6 +1,10 @@
 RIGHT ANSWER: 
- (  ) 
+ ( B ) 
+ 	nao compila, ocorre um erro no metodo main
 
  WHAT HAS BEEN TESTED: 
+ 	heranca, pegadinha
 
  EXPLANATION: 
+ 	A classe D nao implementa a interface Y e nem a sua classe pai que é B.
+ 	Portanto nao vai compilar mesmo

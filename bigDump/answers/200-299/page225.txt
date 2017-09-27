@@ -1,6 +1,7 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+- java.lang.IndexOutOfBoundException
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
 
- EXPLANATION: 
+EXPLANATION:
+	filha de RuntimeException

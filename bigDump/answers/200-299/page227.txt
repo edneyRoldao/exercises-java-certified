@@ -1,6 +1,8 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+- Permite separar o tratamento de erro da lógica do programa
+- Permite estender as classes que já existem e criar novas exceptions
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
 
- EXPLANATION: 
+EXPLANATION:
+

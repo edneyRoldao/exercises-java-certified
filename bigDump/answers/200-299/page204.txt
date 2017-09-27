@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
- (  ) 
+ ( C ) 
+ 	compila e roda sem exception
 
  WHAT HAS BEEN TESTED: 
+ 	herança e casting
 
  EXPLANATION: 

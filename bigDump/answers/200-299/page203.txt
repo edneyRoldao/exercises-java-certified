@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
- (  ) 
+ ( D )
+  	compila e depois temos um classCastException 
 
  WHAT HAS BEEN TESTED: 
+ 	herança e casting
 
  EXPLANATION: 

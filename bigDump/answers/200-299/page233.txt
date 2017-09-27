@@ -1,6 +1,8 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( C )
+- compila e imprime ace e joga uma exception
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
 
- EXPLANATION: 
+EXPLANATION:
+

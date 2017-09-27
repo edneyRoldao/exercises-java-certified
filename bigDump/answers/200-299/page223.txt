@@ -1,6 +1,10 @@
-RIGHT ANSWER: 
- (  ) 
+RIGHT ANSWER:
+( A )
+- nao compila
 
- WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	herança e sobrescrita
 
- EXPLANATION: 
+EXPLANATION:
+	nao podemos sobrescrever um metodo com modificador final
+
