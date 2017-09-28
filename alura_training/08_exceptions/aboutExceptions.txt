@@ -32,6 +32,11 @@ ABOUT EXCEPTIONS
      NullPointerException, ou seja, nunca vai entrar nesse catch e o compilador sabe
      disso e não deixa.
 
+- 8: Nao podemos fechar o escopo de uma exception. Se o metodo lançar uma IOException, 
+     na sua chamada, temos que tratar uma IOException e uma exception mais generica.
+     Nao podemos fechar o escopo da exception pois outros tipos podem ser lançados e 
+     nao tratados.
+
 CLASSIFICACAO DAS EXCEPTIONS:
 
 	- ArrayIndexOutOfBoundException (arrays)

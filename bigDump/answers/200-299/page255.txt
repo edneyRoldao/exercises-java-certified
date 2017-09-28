@@ -1,8 +1,15 @@
 RIGHT ANSWER:
-(  )
--
+( A )
+- imprime 5 ( MERDA DE QUESTAO )
 
 WHAT HAS BEEN TESTED:
+	operador ternario e classes wrapper
 
 EXPLANATION:
-
+	Desconside esta questao pois é impossível decorar o valor de cada inteiro
+	em suas diferentes bases. como eu saberia que (10 na base 2) é 2 ?.
+	Esse Mário da Alura é um maluco.
+	Ponto importante:
+		podemos atribuir null para um tipo primitivo por meio do operador
+		ternário e caso a mesma receba o valor null, teremos um nullPointer
+		em tempo de execução.

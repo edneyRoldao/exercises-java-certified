@@ -1,8 +1,14 @@
 RIGHT ANSWER:
-(  )
--
+
+- (A) sao imutáveis.
+
+
+- (B) LocalTime
+
+
+- (B) LocalDateTime.now()
+
+
 
 WHAT HAS BEEN TESTED:
-
-EXPLANATION:
-
+	nova API de data do java 1.8

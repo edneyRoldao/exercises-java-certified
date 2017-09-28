@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  )
--
+( A )
+- ChronoUnit.DAYS.between(d1, d2);
 
 WHAT HAS BEEN TESTED:
+	nova API de data do java 1.8
 
 EXPLANATION:
+
 

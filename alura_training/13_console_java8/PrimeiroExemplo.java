@@ -9,14 +9,14 @@ class PrimeiroExemplo {
 			%c = char
 			%d = inteiros
 			%f = decimais
-			%s = string
+			%s = tudo
 			%n = quebra de linha
 
 			REGRAS: % depois indice, flags, tamanho, precisao, tipo
 			
 			EXP 01 
 			*obs: 1º parametro sempre sera 1
-			Podemos informar a posicao dos valores com i%, veja:
+			Podemos informar a posicao dos valores com numeroIndex$, veja:
 			("%2$s %1$s", "Universe", "Hello") - Hello Universe
 			("%2$s %2$s", "Universe", "Hello") - Hello Hello
 

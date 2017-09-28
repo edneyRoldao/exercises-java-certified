@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  )
--
+( C )
+- compila, imprime ace, lança uma exception
 
 WHAT HAS BEEN TESTED:
+	tratamento de exceptions
 
 EXPLANATION:
+	exemplo inverso da 235
 

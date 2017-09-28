@@ -1,8 +1,12 @@
 RIGHT ANSWER:
-(  )
--
+( A )
+- nao compila
 
 WHAT HAS BEEN TESTED:
+	tratamento de exceptions
 
 EXPLANATION:
-
+	Erro de sintaxe, usamos "throws" na declaração dos metodos, pois podemos
+	lançar vários tipos de exceptions em um mesmo metodo.
+	No corpo do metodo, temos que lancar uma exception por vez e por isso
+	usamos "throw". Veja que está sendo usado throws no corpo do metodo.

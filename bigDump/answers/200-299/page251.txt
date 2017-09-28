@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  )
--
+( D )
+- imprime 10
 
 WHAT HAS BEEN TESTED:
+	classes wrapper
 
 EXPLANATION:
+	a valueOf tambem converte string para o tipo wrapper que esta chamando.
 

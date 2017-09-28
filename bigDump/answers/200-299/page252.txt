@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  )
--
+( A )
+- erro de compilacao na linha B
 
 WHAT HAS BEEN TESTED:
+	classes wrapper
 
 EXPLANATION:
-
+	temos um metodo que espera receber um int ou Integer, porem
+	estamos passando um long.
+	LONG CANNOT BE CONVERTED TO INTEGER

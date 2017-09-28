@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  )
--
-
+( D )
+- OutOfMemoryError (pode demorar a vida toda pro erro acontecer)
+  está mais para um loop infinito.
+	
 WHAT HAS BEEN TESTED:
+	tratamento de exceptions
 
 EXPLANATION:
 

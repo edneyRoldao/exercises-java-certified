@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( D )
+- LocalDate.from(d.toInstant());
 
 WHAT HAS BEEN TESTED:
+	nova API de data do java 1.8
 
 EXPLANATION:
 

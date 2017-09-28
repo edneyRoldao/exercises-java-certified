@@ -1,8 +1,8 @@
 RIGHT ANSWER:
-(  )
--
+( A )
+- compila e executa normalmente
 
 WHAT HAS BEEN TESTED:
+	saídas no console, interpolação
 
 EXPLANATION:
-

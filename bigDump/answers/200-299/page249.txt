@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( B )
+- imprime go!
 
 WHAT HAS BEEN TESTED:
+	componentes de classe
 
 EXPLANATION:
 

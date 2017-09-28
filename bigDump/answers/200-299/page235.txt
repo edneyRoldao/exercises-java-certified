@@ -1,8 +1,12 @@
 RIGHT ANSWER:
-(  )
-- 
+( A )
+- nao compila
 
 WHAT HAS BEEN TESTED:
+	tratamento de exceptions
 
 EXPLANATION:
-
+	nao podemos fechar o escopo de uma exception. Se o metodo lançar uma IOException, 
+	na sua chamada temos que tratar ou lancar uma IOException ou uma de suas super classes 
+	como a Exception e Throwable. Nao podemos fechar o escopo da exception pois outros tipos 
+	podem ser lançados e nao tratados.

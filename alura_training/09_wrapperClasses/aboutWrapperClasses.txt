@@ -1,0 +1,22 @@
+ABOUT WRAPPER CLASSES
+
+1 - Tanto o valueOf e o parseInt, parseDouble... convertem uma string para o tipo em questão.
+
+2 - nenhum tipo wrapper possui construtor vazio, geralmente ele possuem um que recebe o valor
+    literal, ao sua representacao numerica por String.
+
+3 - longValue(), doubleValue()... convertem de wrapper para primitivo
+
+4 - exites uma sobrecarga do metodo valueOf, parseInt e toString que recebe no segundo parametro
+    a base do numero. binaria, octal, exadecimal...
+
+5 - valueOf:	de string para wrapper
+6 - parseInt:	de string para primitivo
+7 - doubleValue de wrapper para primitivo
+8 - toString()  de wrapper para String (metodo estatico)
+
+9 - podemos aninhar metodos. Exp: doubleValue.valueOf("20").floatValue();
+
+10 - podemos atribuir null para tipos primitivos quando usamos o operador
+     ternário para isso. O compilador no consegue verificar e quando executa,
+     ocorre um nullPointerException.

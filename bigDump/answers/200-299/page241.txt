@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( C )
+- compila, imprime ace, lança uma MyException
 
 WHAT HAS BEEN TESTED:
+	tratamento de exceptions
 
 EXPLANATION:
 

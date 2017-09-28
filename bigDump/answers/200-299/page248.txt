@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  )
--
+( B )
+- linhas A e C imprimem "abc"
 
 WHAT HAS BEEN TESTED:
+	saídas no console, tipos primitivos
 
 EXPLANATION:
-
+	Arrays são objetos no java, quando passamos um objeto no system.out,
+	será invocado o toString() desse objeto, porém , existe uma exceção
+	para arrays do tipo char onde serao imprissos seus caracteres. 

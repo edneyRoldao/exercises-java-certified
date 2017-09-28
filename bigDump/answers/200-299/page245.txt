@@ -1,8 +1,13 @@
 RIGHT ANSWER:
-(  )
--
+( D )
+- imprime:
+			ab
+			cd
+
+			e
 
 WHAT HAS BEEN TESTED:
+	saídas no console
 
 EXPLANATION:
-
+	o metodo printf existe

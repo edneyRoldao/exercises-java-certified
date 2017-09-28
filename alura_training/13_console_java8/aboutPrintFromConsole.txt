@@ -1,0 +1,12 @@
+ABOUT PRINT THINGS FROM CONSOLE
+
+1 - quando passamos um objeto para os metodos print, o toString desse objeto será
+    invocado, exceto quando passamos um array de char onde será feito uma iteracao
+    imprimindo cada char
+
+2 - os metodos printf e format existem e tem o mesmo comportamento.
+
+3 - nao podemos chamar os metodos print(), printf() e format() sem argumentos
+
+4 - o maracdor que alinha para esquerda, é incompatível com o marcador que preenche
+    com zeros.

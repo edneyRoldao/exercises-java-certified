@@ -16,3 +16,9 @@ ABOUT PRIMITIVE TYPES
 			     de forma literal, o compilador sabe que vai ocorrer um erro e nao deixa 
 			     compilar.
 			     Precisamos prestar muita atenção na questão da precedencia.
+
+2- Podemos atribuir caracteres para todos os tipo numericos. Exemplo:
+	byte b = 'b';
+	int  i = 'i';
+	long l = 'l';
+	existe um valor numerico oara cada caracter.

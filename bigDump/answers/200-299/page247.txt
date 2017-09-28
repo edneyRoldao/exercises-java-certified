@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( A )
+- System.out.printf(">%-(8.2f<", 12.45);
 
 WHAT HAS BEEN TESTED:
-
+	saídas no console, interpolação
+	
 EXPLANATION:
 

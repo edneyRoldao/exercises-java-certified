@@ -1,20 +1,11 @@
+import java.util.*;
+import java.time.*;
+import java.time.temporal.*;
+
 class A {
-
-	void m2() throws java.io.FileNotFoundException {
-		System.out.print("e");
-		new java.io.FileInputStream("a.txt");
-		System.out.print("f");
-	}
-
-	void m() throws java.io.IOException {
-		System.out.print("c");
-		m2();
-		System.out.print("d");
-	}
-
-	public static void main(String[] args) throws java.io.FileNotFoundException {
-		System.out.print("a");
-		new A().m();
-		System.out.print("b");		
+	public static void main(String[] args) {
+		Date d = new Date();
+		LocalDate ld = LocalDateTime.ofInstant(d.toInstant(), ZoneId.systemDefault()).toLocalDate();
+		System.out.println(ld);
 	}
 }
