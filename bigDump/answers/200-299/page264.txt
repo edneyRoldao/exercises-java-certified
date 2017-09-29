@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  )
--
+( D )
+- Calculator<Integer> div = (int a, int b) -> { return (Integer) a / b; };
 
 WHAT HAS BEEN TESTED:
+	expressões lambda
 
 EXPLANATION:
+	No generics estamos passando um Integer, porem os params sao int.
 

@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  )
--
+( A e C )
+
+- Predicate<String> startsWithA = s -> s.startsWith("A");
+- Predicate<List> bigger = list -> list.size() > 1000;
 
 WHAT HAS BEEN TESTED:
+	expressões lambda
 
 EXPLANATION:
 

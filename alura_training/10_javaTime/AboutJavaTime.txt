@@ -4,4 +4,7 @@ ABOUT API:	 JAVA.TIME
    esse tipo de objeto não lida com horas, minutos e segundos. Para trabalhar
    com LocalDateTime, usamos o objeto do tipo Duration
 
-2- 
+2- 	objetos do tipo MonthDay nao posuem a sobrecarga do metodo isSupported que
+	recebe um ChronoUnit como parametro, apenas ChronoField
+
+3- 

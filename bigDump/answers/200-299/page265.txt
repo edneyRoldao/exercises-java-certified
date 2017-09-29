@@ -1,8 +1,15 @@
 RIGHT ANSWER:
-(  )
--
+( D )
+- erro de compilacao
 
 WHAT HAS BEEN TESTED:
+	expressões lambda
 
 EXPLANATION:
+	O acesso a variáveis locais dentro da nossa expressao lambda é permitido, porém
+	ela deve ser final ou nao ser alterada nem mesmo após a expressao lambda, ou seja,
+	efeticamente final.	
+
+	MENSAGEM DE ERRO: local variables referenced from a lambda expression must be final
+	                  or effectively final.
 

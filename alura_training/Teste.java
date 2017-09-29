@@ -1,11 +1,9 @@
-import java.util.*;
-import java.time.*;
-import java.time.temporal.*;
-
 class A {
 	public static void main(String[] args) {
-		Date d = new Date();
-		LocalDate ld = LocalDateTime.ofInstant(d.toInstant(), ZoneId.systemDefault()).toLocalDate();
-		System.out.println(ld);
+
+		for(int i = 0; i < 10; i++) {
+			new Thread( () -> System.out.println(i) ).start();
+		}
+
 	}
 }

@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  )
--
+( E )
+- nao compila
 
 WHAT HAS BEEN TESTED:
+ nova API data
 
 EXPLANATION:
-
+	objetos do tipo MonthDay nao posuem a sobrecarga do metodo isSupported que
+	recebe um ChronoUnit como parametro, apenas ChronoField

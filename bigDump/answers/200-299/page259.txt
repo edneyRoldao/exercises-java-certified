@@ -1,9 +1,11 @@
 RIGHT ANSWER:
-( D )
-- LocalDate.from(d.toInstant());
+( B )
+- LocalDateTime.ofInstant(date.toInstant(), ZoneId.systemDefault()).toLocalDate();
 
 WHAT HAS BEEN TESTED:
 	nova API de data do java 1.8
 
 EXPLANATION:
-
+	quando convertemos de Date ou Calendar, devemos partir para os milisegundos.
+	o metodo ofInstant cria uma data a partir dos milisegundos. Precisamos passar
+	tbm o timeZone com ZoneId.
