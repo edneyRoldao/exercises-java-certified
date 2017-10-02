@@ -1,8 +1,15 @@
-class A {
+class Test {
 	public static void main(String[] args) {
+		
+		StringBuilder sb = new StringBuilder(5);
+		String s = "";
 
-		for(int i = 0; i < 10; i++) {
-			new Thread( () -> System.out.println(i) ).start();
+		if(sb.equals(s)) {
+			System.out.println("match 1");
+		} else if(sb.toString().equals(s.toString())) {
+			System.out.println("match 2");			
+		} else {
+			System.out.println("no match");			
 		}
 
 	}

@@ -1,8 +1,12 @@
 RIGHT ANSWER:
-(  )
--
+( C )
+- compilation fails at line n2
 
 WHAT HAS BEEN TESTED:
+	data types, cast
 
 EXPLANATION:
+	About casting from primitive types and wrapper classes:
+	          COMPILE: Long l = (long) something;
+	COMPILATION FAILS: long l = (Long) something;
 

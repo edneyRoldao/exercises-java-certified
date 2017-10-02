@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( E )
+- our methods must be public and attributes private
 
 WHAT HAS BEEN TESTED:
+	encapsulation
 
 EXPLANATION:
 

@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( E )
+- compilation fails both lines n1 and n2
 
 WHAT HAS BEEN TESTED:
+	inheritance, constructor rules
 
 EXPLANATION:
-
+	

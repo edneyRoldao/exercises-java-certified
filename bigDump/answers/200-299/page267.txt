@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  )
--
+( B )
+- it doesn't compile from error at line A
 
 WHAT HAS BEEN TESTED:
+	lambda expressions
 
 EXPLANATION:
-
+	variable a is already difined in this method.
+	we have two local variables declared in the same method, the 
+	first one is from parameter and the second one at lambda expressions

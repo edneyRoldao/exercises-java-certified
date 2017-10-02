@@ -1,6 +1,10 @@
 RIGHT ANSWER:
-(  )
--
+( A )
+
+public void addKwh(double kwh) {
+	this.kwh += kwh;
+	this.bill = this.kwh * this.rate;
+}
 
 WHAT HAS BEEN TESTED:
 

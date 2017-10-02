@@ -20,3 +20,9 @@ ABOUT WRAPPER CLASSES
 10 - podemos atribuir null para tipos primitivos quando usamos o operador
      ternário para isso. O compilador no consegue verificar e quando executa,
      ocorre um nullPointerException.
+
+11 - Sobre cast entre tipos primitivos e wrapper:
+	         PERMITIDO: Long l = (long) ...
+	ERRO DE COMPILACAO: long l = (Long) ...
+
+12 - 

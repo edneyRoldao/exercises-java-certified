@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( D )
+- compile and print 1
 
 WHAT HAS BEEN TESTED:
+	lambda expressions
 
 EXPLANATION:
 

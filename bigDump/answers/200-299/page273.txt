@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  )
--
+( C, D )
+- make the method at line n3 public
+- make the method at line n3 protected
 
 WHAT HAS BEEN TESTED:
+	inheritance, access modifiers
 
 EXPLANATION:
-
+	when we overrinding a method, we can increase its access privileges 
+	but we cannot assign weaker privileges.

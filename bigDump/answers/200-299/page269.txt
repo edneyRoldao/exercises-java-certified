@@ -1,8 +1,15 @@
 RIGHT ANSWER:
-(  )
--
+( C )
+- 400.0 : 100.0
 
 WHAT HAS BEEN TESTED:
+	how abjects and primitive variables are stored in memory.
 
 EXPLANATION:
-
+	The variables inside updatePrice method are considered local
+	variables, that is the reason variable newPrice remains with
+	the same value before and after call method, but objects works
+	in a bit different way. The objects product inside and outside
+	updatePrice method point to the same address memory, it means
+	that both can change price attribute that will reflect on each 
+	other.

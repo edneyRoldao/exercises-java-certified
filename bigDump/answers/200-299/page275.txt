@@ -1,8 +1,13 @@
 RIGHT ANSWER:
-(  )
--
+( A, C )
+- replace line 10 with:
+	public static void main(String[] args) throws Exception {
+
+- replace line 4 with:
+	public void printFileContent() throws IOException {
 
 WHAT HAS BEEN TESTED:
+	exceptions
 
 EXPLANATION:
 

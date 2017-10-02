@@ -10,6 +10,5 @@ EXPLANATION:
 	ela deve ser final ou nao ser alterada nem mesmo após a expressao lambda, ou seja,
 	efeticamente final.	
 
-	MENSAGEM DE ERRO: local variables referenced from a lambda expression must be final
-	                  or effectively final.
+	MENSAGEM DE ERRO: local variables referenced from a lambda expression must be 					  final or effectively final.
 
