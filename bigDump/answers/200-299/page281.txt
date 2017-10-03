@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( B )
+- int e = 0; e < 5; e + = 2
 
 WHAT HAS BEEN TESTED:
+	loop
 
 EXPLANATION:
 

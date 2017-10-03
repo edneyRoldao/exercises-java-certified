@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  )
--
+( C )
+- super(r);
+  this.c = c;
 
 WHAT HAS BEEN TESTED:
+	inheritance, constructor
 
 EXPLANATION:
 

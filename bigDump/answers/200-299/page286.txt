@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  )
--
+( D )
+- compilation fails only at line n3
 
 WHAT HAS BEEN TESTED:
+	exceptions
 
 EXPLANATION:
+	java.lang.Exception it is a checked exception, that means we need to either
+	throw it from main method declaration or manage it inside a try/catch block.
 

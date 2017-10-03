@@ -1,8 +1,15 @@
 RIGHT ANSWER:
-( C )
-- "no match"
+( B )
+- "match 2"
 
 WHAT HAS BEEN TESTED:
+	Tipos de dados
 
 EXPLANATION:
+	- Existe um construtor de StringBuilder que recebe um int e serve para definir uma capacidade de
+	  caracteres inicial, ou seja, temos um StringBuilder vazio com posicao inicial para 5 caracteres.
+	- O metodo equals está presente em objetos do tipo String, portando, para chamá-lo a partir de um 
+	  StringBuilder, precisamos chamar o toString e depois o equals.
+	- O toString que é invocado a partir da variável s que é do tipo string, é totalmente opcional e só
+	  está sendo utilizada para confundir o cabra que estiver lendo.
 

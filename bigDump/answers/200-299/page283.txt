@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  )
--
+( E )
+	import sales.*;
+	import sales.products.*;
 
 WHAT HAS BEEN TESTED:
+	class structure
 
 EXPLANATION:
 

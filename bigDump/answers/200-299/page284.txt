@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  )
--
+( D, G, H )
+	acct.amount = 0;
+	acct.changeAmount(-acct.amount);
+	acct.changeAmount(-acct.getAmount());
 
 WHAT HAS BEEN TESTED:
+	methods, access modifiers
 
 EXPLANATION:
 

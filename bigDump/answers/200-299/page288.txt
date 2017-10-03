@@ -1,8 +1,12 @@
 RIGHT ANSWER:
-(  )
--
+( A )
+	Replace line 5 with String result = "true";
+	Replace line 7 with case "true":
 
 WHAT HAS BEEN TESTED:
+	switch structure rules
 
 EXPLANATION:
+	switch statement does not allow boolean as case, just String or
+	numeric type like int or below.
 

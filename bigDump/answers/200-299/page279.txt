@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( C )
+- A B C C
 
 WHAT HAS BEEN TESTED:
+	data type - string
 
 EXPLANATION:
 

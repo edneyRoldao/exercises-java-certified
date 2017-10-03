@@ -30,3 +30,10 @@ ABOUT STRING AND STRING_BUILDER
 	System.out.println(s == null); // false
 	System.out.println(s.isEmpty()); // true
 	Faz todo sentido pois nao podemos cortar uma string a partir da posicao 3 ate a posicao 2.
+
+11- stringBuilder e StringBuffer possuem um construtor que recebe um int, em resumo, nao serve pra nada, apenas
+    para te pegar na prova de certificacao.
+    Na verdade essa merda define uma capacidade inicial de caracteres, porém ele vai aumentando conforme necessário
+
+12- podemos passar qualquer objeto como parametro para o append do stringBuilder que ele vai chamar o 
+    toString do objeto.

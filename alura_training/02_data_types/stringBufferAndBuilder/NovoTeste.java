@@ -39,8 +39,8 @@ class TestesComStringBuilder {
 
 		System.out.println();
 		System.out.println(sb);
-		System.out.println( isPalindromo("java") );
-		System.out.println( isPalindromo2("aba") );
+		System.out.println( isPalindromo2("java") );
+		System.out.println( isPalindromo("aba") );
 
 		StringBuilder sb2 = new StringBuilder("    teste o trim     ");
 		sb2.toString().trim();
@@ -54,10 +54,10 @@ class TestesComStringBuilder {
 
 	public static boolean isPalindromo2(String value) {
 		char[] invertida = new char[value.length()];
+		int index = value.length() - 1;
 
-		for(int i = 0; i < value.length(); i++) {
-			invertida[i] = value.charAt((value.length() - 1) - i);
-		}
+		for(int i = 0; i <= index; i++)
+			invertida[i] = value.charAt(index - i);
 
 		return new String(invertida).equals(value);
 	}

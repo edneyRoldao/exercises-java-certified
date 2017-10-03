@@ -1,8 +1,11 @@
 RIGHT ANSWER:
-(  )
--
+( C, D )
+
+- abstract class EBook extends Book {
+- public void setBookMark() { }
 
 WHAT HAS BEEN TESTED:
+	inheritance, interfaces
 
 EXPLANATION:
 

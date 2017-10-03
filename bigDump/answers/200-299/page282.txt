@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  )
--
+( A )
+	Encapsulation ensures that classes can be designed so that only certain
+	fields and methods of an object are accessible from other objects.
 
 WHAT HAS BEEN TESTED:
+	relationship between objects.
 
 EXPLANATION:
 

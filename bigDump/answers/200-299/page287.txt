@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( B )
+- at line 7, insert x--
 
 WHAT HAS BEEN TESTED:
+	increment and decrement
 
 EXPLANATION:
 
