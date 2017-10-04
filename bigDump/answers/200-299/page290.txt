@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( E )
+- compilation fails
 
 WHAT HAS BEEN TESTED:
+	ternary operator
 
 EXPLANATION:
 

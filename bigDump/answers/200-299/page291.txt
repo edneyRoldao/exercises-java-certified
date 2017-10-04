@@ -1,8 +1,10 @@
 RIGHT ANSWER:
-(  )
--
+( A )
+- 97, 98
+  99, 100, null, null, null
 
 WHAT HAS BEEN TESTED:
+	array, for
 
 EXPLANATION:
-
+	essa questao foi montada errada. 91 é 97
