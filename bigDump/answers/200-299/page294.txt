@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( C )
+- A B C
 
 WHAT HAS BEEN TESTED:
+	constructors and inheritance
 
 EXPLANATION:
 

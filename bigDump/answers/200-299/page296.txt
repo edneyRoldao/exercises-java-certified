@@ -1,6 +1,5 @@
 RIGHT ANSWER:
-(  )
--
+- Every answers are wrong.
 
 WHAT HAS BEEN TESTED:
 

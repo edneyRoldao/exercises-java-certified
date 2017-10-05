@@ -1,6 +1,6 @@
 RIGHT ANSWER:
-(  )
--
+( C )
+- A work done
 
 WHAT HAS BEEN TESTED:
 

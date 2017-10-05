@@ -1,6 +1,8 @@
 RIGHT ANSWER:
-(  )
--
+( C )
+
+	javac Greeting.java
+	java Greeting Duke
 
 WHAT HAS BEEN TESTED:
 

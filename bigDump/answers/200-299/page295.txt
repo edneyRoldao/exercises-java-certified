@@ -1,8 +1,9 @@
 RIGHT ANSWER:
-(  )
--
+( C )
+- 5 4 5 6
 
 WHAT HAS BEEN TESTED:
+	variable scope
 
 EXPLANATION:
 
