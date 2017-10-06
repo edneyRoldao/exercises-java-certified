@@ -1,6 +1,10 @@
 RIGHT ANSWER: 
-(  ) 
+( A )
+	2014-06-20
+	2014-06-20
+	2014-06-20	
 
 WHAT HAS BEEN TESTED: 
+	java.time from java 1.8
 
 EXPLANATION:

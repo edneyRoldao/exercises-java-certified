@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( A ) 
+	String str2 = str1;
 
-WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	comparation, string pool 
 
 EXPLANATION:

@@ -1,6 +1,9 @@
 RIGHT ANSWER: 
-(  ) 
+	B - a subclass can inherit from a superclass
+	C - Objects can share behaviors with other objects
+	E - Object is the root class of all other objects
 
 WHAT HAS BEEN TESTED: 
+	object-oriented
 
 EXPLANATION:

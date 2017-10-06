@@ -1,6 +1,11 @@
 RIGHT ANSWER: 
-(  ) 
+( A, C )	
+	if(q >= 90) d = 0.5;
+	if(q > 80 && q < 90) d = 0.2;
+
+	d = (q >= 90) ? 0.5 : (q > 80) ? 0.2 : 0; 
 
 WHAT HAS BEEN TESTED: 
+	conditional operators and ternary structure
 
 EXPLANATION:

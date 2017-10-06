@@ -1,13 +1,54 @@
 class Test {
 	public static void main(String[] args) {
-		String[] arr = {"A", "B", "C", "D"};
-		for(int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i] + " ");
-			if(arr[i].equals("C")) {
-				continue;
-			}
-			System.out.println("work done");
-			break;
-		}
+		if(args[0].equals("Hello") ? false : true)
+			System.out.println("Success");
+		else 
+			System.out.println("Failure");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// System.out.println
+// System.out.print
+// class
+// Test
+
+class P {
+	static void pula(String label) {
+		System.out.println();
+		System.out.println("##########   " + label + "   ##########");
+		System.out.println();		
 	}
 }

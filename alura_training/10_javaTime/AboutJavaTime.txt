@@ -2,9 +2,16 @@ ABOUT API:	 JAVA.TIME
 
 1- Os objetos do tipo Period só aceitam datas do tipo LocalDate, visto que
    esse tipo de objeto não lida com horas, minutos e segundos. Para trabalhar
-   com LocalDateTime, usamos o objeto do tipo Duration
+   com LocalDateTime, usamos o objeto do tipo Duration. Como LocalDateTime tem hora,
+   com o duration só dodemos recuperar diferencas relacionados a horas, exp:
+   segundos, milisegundos, minutos e horas.
+   Diferenças entre dias, meses e anos com o Period.
 
 2- 	objetos do tipo MonthDay nao posuem a sobrecarga do metodo isSupported que
 	recebe um ChronoUnit como parametro, apenas ChronoField
 
-3- 
+3- O formato iso é yyyy-MM-dd
+
+4- baseado no ítem 3, LocalTime nao aceita esse tipo de formatter
+
+5- 

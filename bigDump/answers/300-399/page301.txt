@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( C ) 
+	0 2 4
 
 WHAT HAS BEEN TESTED: 
+	for and increment
 
 EXPLANATION:
