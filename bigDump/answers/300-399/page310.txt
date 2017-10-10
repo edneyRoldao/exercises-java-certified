@@ -1,6 +1,12 @@
 RIGHT ANSWER: 
-(  ) 
+( B ) 
+	only s is accessible by obj
 
-WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	access modifiers 
 
 EXPLANATION:
+	so podemos acessar variáveis protected em outros pacotes a partir da
+	declaracao de objetos filhos.
+	Obs: não baste só a referencia, o tipo declarado também deve ser do filho.
+	Por isso que nao temos o acesso aqui.

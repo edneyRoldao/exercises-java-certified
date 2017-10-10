@@ -1,6 +1,10 @@
 RIGHT ANSWER: 
-(  ) 
+( A )
+	num[0][0] = 10
+	num[0][1] = 10
+	num[0][2] = 10	 
 
 WHAT HAS BEEN TESTED: 
+	arrays
 
 EXPLANATION:

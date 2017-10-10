@@ -1,10 +1,10 @@
 package codigo;
 
 import modelo.*;
-import financeiro.*;
 
-public class A extends Conta {
+public class A extends Cliente {
 	public static void main(String[] args) {
-		
+		A cli = new A();
+		cli.imprime();
 	}
 }

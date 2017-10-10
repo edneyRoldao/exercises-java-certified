@@ -1,6 +1,12 @@
 RIGHT ANSWER: 
-(  ) 
+( A )
+
+public abstract class Toy {
+	public abstract int calcPrice(Toy t);
+	public void printToy(Toy t) { /* code goes here */ }
+} 
 
 WHAT HAS BEEN TESTED: 
+	herança
 
 EXPLANATION:

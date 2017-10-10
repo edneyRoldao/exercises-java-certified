@@ -1,6 +1,9 @@
 RIGHT ANSWER: 
-(  ) 
+( A ) Byte x = 1;
+( B ) short x = 1;
+( F ) Integer x = new Integer("1"); 
 
 WHAT HAS BEEN TESTED: 
+	operador switch
 
 EXPLANATION:

@@ -1,6 +1,12 @@
 RIGHT ANSWER: 
-(  ) 
+( C ) 
+	A B D E
 
 WHAT HAS BEEN TESTED: 
+	break, continue, for
 
 EXPLANATION:
+	o break foi quebrar o for interno.
+	o continue pula a volta atual e continua com a próxima. Obs: o continue só faz sentido 
+	se desejamos pular a execução do código que está abaixo do mesmo, nesse caso nao existe
+	código algum.

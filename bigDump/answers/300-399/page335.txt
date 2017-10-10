@@ -1,6 +1,9 @@
 RIGHT ANSWER: 
-(  ) 
+( D ) 
+	compilations fails at line n2
 
 WHAT HAS BEEN TESTED: 
+	inicialização de variáveis
 
 EXPLANATION:
+	variáveis locais devem ser inicializadas antes de usar.

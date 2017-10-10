@@ -1,6 +1,9 @@
 RIGHT ANSWER: 
-(  ) 
+( C ) 
+	A runtime error is thrown in the thread main
 
 WHAT HAS BEEN TESTED: 
+	exceptions, while structure
 
 EXPLANATION:
+	temos um OutOfMemoryError pois entramos em loop.

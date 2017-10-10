@@ -1,6 +1,7 @@
 RIGHT ANSWER: 
-(  ) 
+( B, C ) 
 
 WHAT HAS BEEN TESTED: 
+	string and stringBuilder
 
 EXPLANATION:

@@ -1,6 +1,13 @@
 RIGHT ANSWER: 
-(  ) 
+( C ) 
+	DerivedB and DerivedB
 
-WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	casting 
 
 EXPLANATION:
+	para nao ocorrer um classCastException, só podemos atribuir objeto de escopo
+	menor, ou seja, o objeto que está recebendo um valor de ter o escopo maior ou igual.
+	Para que não ocorre erro de compilação, tipo das variáveis deve ter alguma relação de
+	herança, mesmo que nao seja direta.
+	Nesse caso a relacao é entre Vó e neta. 

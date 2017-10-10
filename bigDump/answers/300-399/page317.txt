@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( B ) 
+	if(str1.equalsIgnoreCase(str2))
 
 WHAT HAS BEEN TESTED: 
+	string, pool de string, comparacões
 
 EXPLANATION:

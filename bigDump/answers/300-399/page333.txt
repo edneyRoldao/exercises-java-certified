@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( C ) 
+	It can run on any platform that has the Java Runtime Environment.
 
 WHAT HAS BEEN TESTED: 
+	basics of java
 
 EXPLANATION:

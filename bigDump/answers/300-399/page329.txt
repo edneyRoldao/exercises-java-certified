@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( A ) 
+	Only the A.java file compiles successfully
 
 WHAT HAS BEEN TESTED: 
+	modificadores de acesso, estrutura de classe
 
 EXPLANATION:

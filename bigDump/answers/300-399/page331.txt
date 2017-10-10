@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( A ) 
+	400 200
 
 WHAT HAS BEEN TESTED: 
+	escopo de variaveis
 
 EXPLANATION:

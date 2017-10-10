@@ -49,3 +49,12 @@ ABOUT INHERITANCE
 	    especializado do metodo que ele esta sobrescrevendo. Exemplo: podemos sobrescrever um
 	    método que retorno Object por um que retorno String pois ela é filha de object, já o contrário,
 	    teremos um erro de compilacao.
+
+	13- Só teremos acesso à membros protected quando o tipo declarado for exatamente a subclasse
+	    que extende a classe com o atributo protected, não basta só a referência.
+
+	14- Quando ocorre o ClassCastingException: é quando tentamos atribuicao o valor de um tipo
+	    com scopo maior em um scopo menor. Exp:
+	    String sempre será um object, pois este é pai de todos os objetos.
+	    Um object nem sempre é uma string, por isso não podemos atribuir um object a uma string
+

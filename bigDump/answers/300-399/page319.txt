@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( D ) 
+	A NullPointerException is thrown at runtime.
 
-WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	arrays
 
 EXPLANATION:

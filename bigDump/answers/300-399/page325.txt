@@ -1,6 +1,10 @@
 RIGHT ANSWER: 
-(  ) 
+( D )
+	compilation fails at both line n1 and line n2
 
 WHAT HAS BEEN TESTED: 
+	construtores
 
 EXPLANATION:
+	só podemos chamar um construtor a partir de outro usando o this, caso contrário,
+	temos que user o operador new.

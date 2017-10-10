@@ -1,6 +1,9 @@
 RIGHT ANSWER: 
-(  ) 
+( C )
+	hello java se 8
+	hello hashcode 
 
 WHAT HAS BEEN TESTED: 
+	sobrescrita de metodos como o toString
 
 EXPLANATION:

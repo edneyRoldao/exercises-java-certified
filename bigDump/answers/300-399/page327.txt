@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( C ) 
+	15, 30, 75, 60, 90
 
-WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	arrays
 
 EXPLANATION:

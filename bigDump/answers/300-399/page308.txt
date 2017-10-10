@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( E ) 
+	4 and 5
 
 WHAT HAS BEEN TESTED: 
+	Array and string methods and attributes
 
 EXPLANATION:

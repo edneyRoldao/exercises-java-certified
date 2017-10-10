@@ -1,6 +1,10 @@
 RIGHT ANSWER: 
-(  ) 
+( A )
+	true false 
 
 WHAT HAS BEEN TESTED: 
+	regras boolean, classes wrapper
 
 EXPLANATION:
+	tudo diferente de true e "true", é evaluado para false.
+	Ele aceita null pois existe um construtor que recebe objetos do tipo string.

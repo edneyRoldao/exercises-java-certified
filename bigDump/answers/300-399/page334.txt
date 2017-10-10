@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( A ) 
+	just one instance
 
 WHAT HAS BEEN TESTED: 
+	memory and objects
 
 EXPLANATION:

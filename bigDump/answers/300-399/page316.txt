@@ -1,6 +1,9 @@
 RIGHT ANSWER: 
-(  ) 
+( C )
+	false, false 
 
 WHAT HAS BEEN TESTED: 
+	operações em string
 
 EXPLANATION:
+	o método isEmpty nao verifica os espaços em branco. 

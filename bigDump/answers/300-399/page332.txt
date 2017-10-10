@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( D ) 
 
 WHAT HAS BEEN TESTED: 
+	herança
 
 EXPLANATION:
+	Tinger é um Cat, porém Cat nem sempre será um Tiger. Por isso que nao compila

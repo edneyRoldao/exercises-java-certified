@@ -1,6 +1,10 @@
 RIGHT ANSWER: 
-(  ) 
+(C)  
+	p -> p.getAge() > 40
+
 
 WHAT HAS BEEN TESTED: 
+	expressão lambda
 
 EXPLANATION:
+	nao podemos declarar o tipo pois já está implícito

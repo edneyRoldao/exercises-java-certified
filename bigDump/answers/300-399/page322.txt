@@ -1,6 +1,7 @@
 RIGHT ANSWER: 
-(  ) 
+( A, D, F ) 
 
 WHAT HAS BEEN TESTED: 
+	casting, tipo de dados
 
 EXPLANATION:

@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( D ) 
+	compilation fails at line n2
 
-WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+	construtores
 
 EXPLANATION:

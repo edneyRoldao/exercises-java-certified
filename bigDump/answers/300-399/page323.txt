@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( C ) 
+	string main 1
 
 WHAT HAS BEEN TESTED: 
+	metodo main, sobrecarga
 
 EXPLANATION:
