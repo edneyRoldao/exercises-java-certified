@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( C ) 
+	false : true
 
 WHAT HAS BEEN TESTED: 
+	operadores de comparacao
 
 EXPLANATION:

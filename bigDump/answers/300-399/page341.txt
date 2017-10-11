@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( A ) 
+	1:2:3:4:5:
 
 WHAT HAS BEEN TESTED: 
+		arrays
 
 EXPLANATION:

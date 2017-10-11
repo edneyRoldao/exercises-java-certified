@@ -1,6 +1,8 @@
 RIGHT ANSWER: 
-(  ) 
+( C ) more dynamic code at runtime
+( D ) more flexible and reusable code 
 
-WHAT HAS BEEN TESTED: 
+WHAT HAS BEEN TESTED:
+		definicao de polimorfismo
 
 EXPLANATION:

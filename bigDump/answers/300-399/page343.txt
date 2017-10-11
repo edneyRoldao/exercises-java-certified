@@ -1,6 +1,9 @@
 RIGHT ANSWER: 
-(  ) 
+( C, E )
+	employee.budget = 1000;
+	manager.stockOption = 1000; 
 
 WHAT HAS BEEN TESTED: 
+	herança
 
 EXPLANATION:

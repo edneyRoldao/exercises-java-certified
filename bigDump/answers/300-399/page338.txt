@@ -1,6 +1,9 @@
 RIGHT ANSWER: 
-(  ) 
+( C )
+	Either A or B 
 
 WHAT HAS BEEN TESTED: 
+		exceptions, ternario, pegadinha
 
 EXPLANATION:
+		podemos usar ternario para lancar exceptions.

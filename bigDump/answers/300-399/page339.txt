@@ -1,6 +1,12 @@
 RIGHT ANSWER: 
-(  ) 
+( C )
+	myStr: 7007, MyNum: 9009
 
 WHAT HAS BEEN TESTED: 
+		exceptions, ternario, pegadinha
 
 EXPLANATION:
+	Perceba que temos a variavel myString dentro do escopo de bloco try e uma
+	variavel membro com o mesmo nome.
+	O processo de shadowing só ocorreria se, o system.out estivesse dentro do bloco try,
+	portanto, será impresso myString membro que tem valor 7007.  
