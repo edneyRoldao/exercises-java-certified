@@ -1,0 +1,49 @@
+REVIEW WRONG ANSWERS
+
+01 - Functional Interface
+	Dentre várias interfaces, foi perguntado qual delas era uma
+	Functional Interface.
+	A última opcao era uma Interface que extendia outras 3 Interfaces.
+	Das 3 duas eram Functional Interface, ou seja, esta ultima nao
+	era uma e foi respondido que sim.
+	FEEDBACK: pegadinha (prestar mais atenção)
+
+02 - Lambda e os novos default methods adicionados na Interface
+     java.util.List.
+     O exercício apresentou o medoto removeif que recebe um Predicate
+     como parâmetro.
+     Este método não foi estudado, por isso errei a resposta.
+     FEEDBACK: estudar os novos default methods adicionados
+
+03 - Estrutura de classes.
+	 O exercício queria saber dentro vários imports, quais eram
+	 duplicados.
+	 Eu já sabia que os imports do pacote java.lang são importados
+	 por padrão, porém achei que era uma questão de estar ou não
+	 implícito.
+	 o correto era manter apenas o import específico do java.util.Random,
+	 pois nenhuma outra classe desse pacote estava sendo utilizada.
+	 FEEDBACK: falta de atenção
+
+04 - Sobrecarga de metodos.
+     Só podemos ter metodos com o mesmo nome quando a quantidade ou
+     o os tipos dos parâmetros são diferentes.
+     O exercicio confundiu adicionando modificadores de acesso diferentes
+     e retorno.
+     FEEDBACK: rever Sobrecarga.
+
+05 - Novo API de data do java 1.8
+     Não sabia que existia uma sobrecardo do metodo plus que recebe
+     objetos do tipo TemporalAmount (Duration e Period) como parametro
+     FEEDBACK: estudar mais a nova API de data.
+
+06 - Sobre o default methods
+	 Não sabia que não era possível sobrescrever os métodos do pacote
+	 java.lang a partir dos default methods das interfaces, mesmo eles
+	 nao sendo final.
+	 FEEDBACK: ver mais sobre default methods
+
+07 - Sobre Excepions
+	 Errei por falta de atenção. Um ParseException só acontece se
+	 tivermos uma operação de parse, tbm esqueci do ArrayIndexOut...
+	 FEEDBACK: prestar mais atenção na pergunta.

@@ -1,75 +1,23 @@
-class Employee {
-	int salary;
-}
-
-class Manager extends Employee {
-	int budget;
-}
-
-class Director extends Manager {
-	int stockOptions;
-}
-
-class Test {
-	public static void main(String[] args) {
-		Employee employee = new Employee();
-		Manager manager = new Manager();
-		Director director = new Director();
-
-		employee.budget = 200_000;
-		manager.stockOption = 500; 
+class Animal {
+	void eat() {
+		System.out.println("animal eat");
 	}
 }
 
+class Fish extends Animal {
+	void swim() {
+		System.out.println("Fish swim");
+	}
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// 		System.out.println("");
+class t {
+	public static void main(String[] args) {
+		
+		Animal an1 = new Fish();
+		Animal an2 = new Animal();
+		
+		an2 = an1;
+		((Fish) an2).swim();
+		
+	}
+}

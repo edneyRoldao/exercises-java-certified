@@ -1,0 +1,99 @@
+01 - Sobre a relacao entre os metodos equal e hashCode
+	 Tinha que responder qual afirmação era falsa
+     FEEDBACK: Conceito
+	 	Se a comparação entre dois objetos com equals retorna true,
+	 	então significa que o hashCode dos dois é igual também
+
+02 - Ciclo de vida dos Objetos.
+	 Tinha que responder quando objetos eram elegíveis para serem
+	 coletados pelo garbage collector.
+	 FEEDBACK: Pegadinha
+	   Esqueci de contar os objetos que foram criados 
+	   dentro do objeto que se tornou elegível.
+
+03 - Criação e manipulação de String e StringBuilder.
+	 Quais metodos eram comuns entre String e StringBuilder
+	 FEEDBACK: Estudar mais sobre o assunto
+	 	Eu não sabia que charAt era comum entre eles.
+	 
+04 - Tipos de dados, declaracao e inicializacao de variaveis.
+	 Ache que int _52 estavam junto assim int_52.
+	 FEEDBACK: vacilo total, falta de atenção.
+	 	Podemos iniciar nome de variavel com _ e $
+
+05 - Ciclo vida de variávies (escopo)
+	 FEEDBACK: Pegadinha
+	 Não percebi que a variável local string declarada dentro
+	 do bloco try estava sendo usada fora dele. Erro de compilacao 
+
+06 - Java basica - criacao de aplicações executáveis
+	 precisava identificar se a assinatura do metodo main
+	 era válida.
+	 FEEDBACK: conceito
+	 	Não sabia que eu poderia adicionar o modificar final no 
+	 	metodo main.
+
+07 - Construtores.
+	 Tinha que saber qual construtor era válido.
+	 FEEDBACK: pegadinha barata
+	 	Na minha visao, existiam duas opções possíveis, porém
+	 	a questao era de uma opção. Resolvi escolher o construtor
+	 	sem modificador, como a sua classe, porém o nome da classe
+	 	estava errado (com letra minúscula), ou seja, só tinha uma
+	 	resposta certa mesmo.
+
+08 - Classes Wrapper.
+	 Tinha que saber qual metodo de classe Boolean substituí o 
+	 operador & (sem curto circuito).
+	 FEEDBACK: estudar mais os metodos das classes Wrapper.
+
+09 - Herança, Polimorfismo e modificadores de acesso.
+	 FEEDBACK: pegadinha.
+	 O compilador nao consegue identificar que estamos criando
+	 um objeto do tipo Employer onde o metodo visit é public pois
+	 o tipo declarado é a sua superclass Person onde o metodo visit
+	 esta como private. Nesse caso temos um erro de compilacao.
+
+10 - Exceptions, Herança e Polimorfismo
+	 O exercicio teste se podemos lançar outros tipos de exception
+	 na sobrescrita de um metodo
+	 FEEDBACK: conceito
+	 Eu nao sabia que podemos lancar outro tipo de exception na 
+	 sobrescrita.
+
+11 - Tipos de dados, java.util.Arrays
+	 Verificando o conhecimento dos metodos da classe Arrays
+	 FEEDBACK: conceito
+	 O metodo fill recebe o array, indexInicial, indexFinal -1 e 
+	 o valor que será filled.
+
+12 - Herança e Casting process
+	 Tinha que selecionar o opção que gera um ClassCastException
+	 FEEDBACK: conceito
+	 Quando temos uma objeto pai tenta acessar um metodo do filho por
+	 meio do casting, porém a referencia nao é daquele filho.
+
+13 - construtores de loops.
+	 FEEDBACK: pegadinha. Total falta de atenção.
+	 Não podemos ter instruções abaixo do continue pois teremos um erro de
+	 unreachable statement.
+
+14 - Tipos de dados, java.util.Arrays, Array
+	 Codigo simple "só que nao" escolher qual o resultado
+	 FEEDBACK: conceito
+	 O metodo asList da classe utilitária Arrays, retorna um List de tamanho fixo
+	 onde não podemos adicionar e nem remover elementos. Se isso acontecer, será
+	 lançada uma UnsupportedOperationException.
+
+15 - Construtores de loops
+	 Testando estrutura do for vazio
+	 FEEDBACK: conceito
+	 Quando não colocamos a instrucao de parada, teremos um loop infinito.
+
+16 - construtores de loop
+	 Verificando a estrutura do... while
+	 FEEDBACK: Na minha visao, eu acertei a questao.
+	 Foi considerada errada pois faltou o ponto e vírgula para a estrutura estar
+	 correta. 
+	 Sabemos que eu final de cada instrucao temos que fechar com ; achei que isso
+	 nao seria cobrado na questao.
